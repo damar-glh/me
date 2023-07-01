@@ -3,7 +3,7 @@ This is the repository where I will put my portfolio website with the aim that I
 
 ### Tools:
 <p>
-    <img alt="GitHub" src="https://img.shields.io/github/license/:user/:repo">
+    <img alt="GitHub" src="https://img.shields.io/github/license/damar-glh/me">
     <img src="https://img.shields.io/badge/Code-Swift-blue?&logo=swift" />
     <img src="https://img.shields.io/badge/IDE-Xcode-blue?&logo=xcode" />
     <img src="https://img.shields.io/badge/Text%20Editor-Visual%20Studio%20Code-blue?&logo=visual%20studio%20code&logoColor=blue" />
