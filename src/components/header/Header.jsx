@@ -1,9 +1,10 @@
 import React from "react";
 import "./header.css";
+import "../../App.css"; 
 
 const Header = () => {
     return(
-        <head className="header">
+        <header className="header">
             <nav className="nav container">
                 <a href="index.html" className="nav__logo">dam.</a>
 
@@ -11,14 +12,14 @@ const Header = () => {
                     <ul className="nav__list grid">
                         <li className="nav__item">
                             <a href="index.html" className="nav__link">
-                                <i className="uil uil- nav__icon"></i>
+                                <i className="uil uil-estate nav__icon"></i>Home
                             </a>
                         </li>
                     </ul>
                 </div>
             </nav>
-        </head>
+        </header>
     )
 }
 
-export default Header
+export default Header;
