@@ -2,11 +2,9 @@
 
 # dependencies
 /node_modules
+/src/assets
 /.pnp
 .pnp.js
-../../assets//profile.jpg
-../../assets//profile2.jpg
-*.jpg
 
 # testing
 /coverage
