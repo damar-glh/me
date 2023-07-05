@@ -1,5 +1,5 @@
 .skills__container {
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(3, 300px);
     column-gap: 3rem;
     justify-content: center;
 }
@@ -27,7 +27,7 @@
 .skills__group {
     display: grid;
     align-items: flex-start;
-    row-gap: 1rem;
+    row-gap: 2rem;
 }
 
 .skills__data {
@@ -53,7 +53,7 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
     .skills__container {
-        grid-template-columns: max-content;
+        grid-template-columns: repeat(2, 250px);
         row-gap: 2rem;
     }
   }

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./skills.css";
 import Frontend from './Frontend';
+import Framework from './Framework';
 import Lecskills from './Lecskills'
 
 const Skills = () => {
@@ -10,6 +11,7 @@ const Skills = () => {
         <span className="section__subtitle">My stack level</span>
         <div className="skills__container container grid">
             <Frontend />
+            <Framework />
             <Lecskills />
         </div>
     </section>
