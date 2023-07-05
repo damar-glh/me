@@ -1,4 +1,7 @@
 import React from 'react'
+import cpp from '../../assets/cpp.svg';
+import csharp from '../../assets/csharp.svg';
+import php from '../../assets/php.svg';
 
 const Backend = () => {
   return (
@@ -7,21 +10,21 @@ const Backend = () => {
         <div className="skills__box">
             <div className="skills__group">
                 <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
+                    <img src={cpp} alt="" className='skills__component' />
                     <div>
                         <h3 className="skills__name">C++</h3>
                         <span className="skills__level">Beginner</span>
                     </div>
                 </div>
                 <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
+                    <img src={csharp} alt="" className='skills__component' />
                     <div>
                         <h3 className="skills__name">C#</h3>
                         <span className="skills__level">Beginner</span>
                     </div>
                 </div>
                 <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
+                    <img src={php} alt="" className='skills__component' />
                     <div>
                         <h3 className="skills__name">PHP</h3>
                         <span className="skills__level">Novice</span>

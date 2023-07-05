@@ -35,9 +35,14 @@
     column-gap: 0.5rem;
 }
 
-.skills .bx-badge-check {
-    font-size: 1rem;
-    color: var(--title-color)
+.skills__component {
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.skills__component:hover {
+    filter: none;
 }
 
 .skills__name {
