@@ -14,7 +14,7 @@ const About = () => {
               <div className="about__data">
                 <Info />
                 <p className="about__description">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias labore nisi reprehenderit aliquam nobis expedita tenetur consequuntur reiciendis praesentium ea, maiores officia eligendi pariatur beatae eum. Tempora illum maxime ullam!
+                I am a human who is fascinated by the realm of technology, particularly in the realm of development and creation. I strive to continually expand my knowledge and gain fresh experiences. However, concurrently, my fondness for philosophy grants me expertise in comprehending identity and the significance of life.
                 </p>
                 <a download="" href={CV} className="button button--flex">Download CV
                 <svg
