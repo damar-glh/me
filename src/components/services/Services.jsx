@@ -16,7 +16,7 @@ const Services = () => {
                 <div className="services__modal">
                     <div className="services__modal-content">
                         <i className="uil uil-times services__modal-close"></i>
-                        <h3 className="services__modal-title"></h3>
+                        <h3 className="services__modal-title">Website</h3>
                         <p className="services__modal-description">Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-services">
@@ -54,7 +54,7 @@ const Services = () => {
                 <div className="services__modal">
                     <div className="services__modal-content">
                         <i className="uil uil-times services__modal-close"></i>
-                        <h3 className="services__modal-title"></h3>
+                        <h3 className="services__modal-title">Visual Designer</h3>
                         <p className="services__modal-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, exercitationem. Maxime, nam? Facere, et incidunt.</p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-services">
