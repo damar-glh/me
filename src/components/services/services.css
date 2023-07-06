@@ -1,5 +1,5 @@
 .services__container {
-  grid-template-columns: repeat(2, 350px);
+  grid-template-columns: repeat(3, 350px);
   justify-content: center;
   column-gap: 1.8rem;
 }
@@ -120,12 +120,39 @@ services__modal-info {
 
 /* For large devices */
 @media screen and (max-width: 992px) {
-
+  .services__container {
+    grid-template-columns: repeat(3, 218px);
   }
+}
+
+
+@media screen and (max-width: 768px) {
+  .services__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services__content {
+    font-size: 1.5rem;
+  }
+}
 
 /* For medium devices */
 @media screen and (max-width: 576px) {
+  .services__modal-content {
+    padding: 4.5rem 1.5rem 2.5rem;
+  } 
+  .services__modal-description {
+    padding: 0;
   }
-  /* For small devices */
-@media screen and (max-width: 350px) { 
+}
+
+ /* For small devices */
+@media screen and (max-width: 350px) {
+  .services__container {
+    grid-template-columns: max-content;
   }
+
+  .services__content {
+    padding-right: 6rem;
+  }
+}
