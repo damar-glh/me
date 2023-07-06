@@ -20,32 +20,8 @@ const Services = () => {
                 <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
                     <div className="services__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-                        <h3 className="services__modal-title">Website</h3>
-                        <p className="services__modal-description">Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
-                        <ul className="services__modal-services grid">
-                            <li className="services__modal-services">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I develop the user interface.</p>
-                            </li>
-                        </ul>
-                        <ul className="services__modal-services grid">
-                            <li className="services__modal-services">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Web page development.</p>
-                            </li>
-                        </ul>
-                        <ul className="services__modal-services grid">
-                            <li className="services__modal-services">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I position your company brand.</p>
-                            </li>
-                        </ul>
-                        <ul className="services__modal-services grid">
-                            <li className="services__modal-services">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I create ux element interactions.</p>
-                            </li>
-                        </ul>
+                        <h3 className="services__modal-title">Product Developer</h3>
+                        <p className="services__modal-description">As a product developer in the field of web development, I have creative and innovative skills in developing captivating digital products. I work collaboratively with a team of developers, designers, and other stakeholders, with a primary focus on user satisfaction. I always strive to deliver products with optimal performance, keeping up with current trends and being responsive to user feedback. Throughout the development process, I pay attention to the smallest details and act as a reliable problem solver. With good time management abilities, I produce innovative and high-quality web products.</p>
                     </div>
                 </div>
             </div>

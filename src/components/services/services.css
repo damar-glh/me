@@ -77,21 +77,20 @@
   cursor: pointer;
 }
 
-.services__modal-title,
-.services__modal-description {
-  text-align: center;
-}
 
 .services__modal-title {
+  text-align: center;
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1);
 }
 
 .services__modal-description {
+  text-indent: 2em;
+  text-align: justify;
   font-size: var(--small-font-size);
-  padding: 0 3.5rem;
-  margin-bottom: var(--mb-2);
+  padding: 0 2rem;
+  margin-bottom: var(--mb-1-5);
 }
 
 .services__modal-services {
