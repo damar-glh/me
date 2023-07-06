@@ -130,10 +130,6 @@ services__modal-info {
   .services__container {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  .services__content {
-    font-size: 1.5rem;
-  }
 }
 
 /* For medium devices */
