@@ -12,7 +12,7 @@
 
 .about__info {
     grid-template-columns: repeat(3, 140px);
-    gap: 0.5rem;
+    gap: 1.8rem;
     margin-bottom: var(--mb-2);
 }
 
@@ -41,7 +41,8 @@
 
 
 .about__description {
-    margin-bottom: var(--mb-2-5);  
+    margin-bottom: var(--mb-2-5);
+    text-align: justify;  
 }
 
 /* For large devices */
@@ -68,7 +69,7 @@
     }
 
     .about__description {
-        padding: 0 0.5rem;
+        padding: 0 5rem;
         margin-bottom: 2rem;
     }
   }
