@@ -79,8 +79,8 @@ const Qualification = () => {
                 <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content "}>
                     <div className="qualification__data">
                         <div className="">
-                            <h3 className="qualification__title">Product Design</h3>
-                            <span className="qualification__subtitle">Spain - Institute</span>
+                            <h3 className="qualification__title">AMCC</h3>
+                            <span className="qualification__subtitle">Amikom Yogyakarta</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i> 2022 - Present
                             </div>
@@ -97,19 +97,19 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div className="">
-                            <h3 className="qualification__title">Cloud Learning</h3>
-                            <span className="qualification__subtitle">Spain - Institute</span>
+                            <h3 className="qualification__title">Scout Leader</h3>
+                            <span className="qualification__subtitle">SMA N 1 Karangsambung</span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2022 - Present
+                                <i className="uil uil-calendar-alt"></i> 2019 - 2022
                             </div>
                         </div>
                     </div>
                     <div className="qualification__data">
                         <div className="">
-                            <h3 className="qualification__title">Web Design</h3>
-                            <span className="qualification__subtitle">Spain - Institute</span>
+                            <h3 className="qualification__title">Scout Leader</h3>
+                            <span className="qualification__subtitle">SMP N 1 Karangsambung</span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2022 - Present
+                                <i className="uil uil-calendar-alt"></i> 2016 - 2019
                             </div>
                         </div>
                         <div className="">
