@@ -6,6 +6,7 @@
 .pnp.js
 *.jpg
 *pdf
+*png
 
 # testing
 /coverage
