@@ -7,13 +7,8 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_wvf4pq8', 'template_2v81nv8', form.current, '_Dt1BYMz8cfuTqKDD')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    e.target.reset();
   };
   return (
     <section className="contact section" id="contact">
