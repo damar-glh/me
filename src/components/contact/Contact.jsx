@@ -41,7 +41,7 @@ const Contact = () => {
                     <label htmlFor="" className="contact__form-tag">Email</label>
                       <input type="email"  name="email" className="contact__form-input" placeholder='Insert your email' />
                   </div>
-                  <div className="contact__form-div">
+                  <div className="contact__form-div contact__form-area">
                     <label htmlFor="" className="contact__form-tag">Project</label>
                       <textarea name="project" id="" cols="30" rows="10" className='contact__form-input' placeholder='Write your project'></textarea>
                   </div>
