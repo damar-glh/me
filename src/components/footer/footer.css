@@ -38,7 +38,7 @@
     background-color: var(--title-color);
     color: var(--container-color);
     font-size: 1.125rem;
-    padding: 0 4rem;
+    padding: 0.4rem;
     border-radius: 0.5rem;
     display: inline-flex;
 }
@@ -54,3 +54,13 @@
     text-align: center;
     font-size: var(--smaller-font-size);
 }
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .footer__social-link {
+        padding: 0.25rem;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+    }
+  }
