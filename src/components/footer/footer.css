@@ -30,7 +30,27 @@
 
 .footer__social {
     display: flex;
-    color: var(--title-color-dark);
     justify-content: center;
     column-gap: 1.25rem;
+}
+
+.footer__social-link {
+    background-color: var(--title-color);
+    color: var(--container-color);
+    font-size: 1.125rem;
+    padding: 0 4rem;
+    border-radius: 0.5rem;
+    display: inline-flex;
+}
+
+.footer__social-link:hover {
+    background-color: var(--title-color-dark);
+}
+
+.footer__copy {
+    display: block;
+    margin-top: 4.5rem;
+    color: var(--title-color);
+    text-align: center;
+    font-size: var(--smaller-font-size);
 }
