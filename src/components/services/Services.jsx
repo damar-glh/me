@@ -8,7 +8,7 @@ const Services = () => {
     }
   return (
     <section className="services section" id="services">
-        <h2 className="section__title">Services</h2>
+        <h2 className="section__title">Learning</h2>
         <span className="section__subtitle">I learned about</span>
         <div className="services__container container grid">
             <div className="services__content">
@@ -27,16 +27,16 @@ const Services = () => {
             </div>
             <div className="services__content">
                 <div>
-                    <i className="uil uil-cloud-computing services__icon"></i>
-                    <h3 className="services__title">Cloud <br /> Computing</h3>
+                    <i className="uil uil-brain services__icon"></i>
+                    <h3 className="services__title">Update <br /> Technology</h3>
                 </div>
                 <span className="services__button" onClick={() => toggleTab(3)}>View More <i className="uil uil-arrow-right services__button-icon"></i></span>
                 <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
                     <div className="services__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-                        <h3 className="services__modal-title">Cloud Computing</h3>
+                        <h3 className="services__modal-title">Update Technology</h3>
                         <p className="services__modal-description">
-                        As a provider of cloud computing services, I offer reliable and innovative solutions that allow you to optimize the management of your IT infrastructure. With an emphasis on flexibility, security, and scalability, I provide a platform that enables you to efficiently allocate computing resources, securely store and manage your data, and run business applications with optimal performance. With responsive service and dependable technical support, I am committed to meeting your needs and assisting you in your digital transformation journey.
+                        Learning about Update Technology fascinates me with its rapid advancements in the digital world. It opens up opportunities across various industries and keeps me relevant in this ever-changing landscape. Understanding it is crucial for success in the modern era, where technology updates constantly. Exploring this field is an exciting journey of empowerment and real-life solutions, urging me to continuously adapt and stay competitive in the fast-moving industry. It's like an endless adventure, always offering something new to discover.
                         </p>
                     </div>
                 </div>
