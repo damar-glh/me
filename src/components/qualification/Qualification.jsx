@@ -117,6 +117,20 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                     </div>
+                    <div className="qualification__data">
+                        <div className=""></div>
+                        <div className="">
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+                        <div className="">
+                            <h3 className="qualification__title">Scout Leader</h3>
+                            <span className="qualification__subtitle">SMP N 1 Karangsambung</span>
+                            <div className="qualification__calender">
+                                <i className="uil uil-calendar-alt"></i> 2016 - 2019
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
