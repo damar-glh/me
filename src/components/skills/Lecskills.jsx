@@ -14,7 +14,7 @@ const Backend = () => {
                     <img src={c} alt="" className='skills__component' />
                     <div>
                         <h3 className="skills__name">C</h3>
-                        <span className="skills__level">Beginner</span>
+                        <span className="skills__level">Novice</span>
                     </div>
                 </div>
                 <div className="skills__data">
