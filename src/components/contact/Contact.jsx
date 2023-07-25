@@ -33,8 +33,8 @@ const Contact = () => {
                   <div className="contact__card">
                     <i className="bx bxl-messenger contact__card-icon"></i>
                     <h3 className="contact__card-title">Massage</h3>
-                    <span className="contact__card-data">+62822-2322-3166</span>
-                    <a href="" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                    <span className="contact__card-data">Muhamad damar</span>
+                    <a href="https://m.facebook.com/damar.galih.737001?eav=Afa9DNwI3eeZdM4SEa1m0T6kViMZzc6Ev-QMEYKxKS399U--jRaVJbhvp0rNzTTBRe8&paipv=" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                   </div>
                 </div>
             </div>
