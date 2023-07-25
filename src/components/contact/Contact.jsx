@@ -53,9 +53,8 @@ const Contact = () => {
                     <label htmlFor="" className="contact__form-tag">Project</label>
                       <textarea name="project" id="" cols="30" rows="10" className='contact__form-input' placeholder='Write your project'></textarea>
                   </div>
-                  <button className="button button--flex">
-            Send Message
-            <svg
+                  <button className="button button--flex"> Send Message
+            <     svg
                   className="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -71,8 +70,8 @@ const Contact = () => {
                     d="M10.11 14.7052C9.92005 14.7052 9.73005 14.6352 9.58005 14.4852C9.29005 14.1952 9.29005 13.7152 9.58005 13.4252L13.16 9.83518C13.45 9.54518 13.93 9.54518 14.22 9.83518C14.51 10.1252 14.51 10.6052 14.22 10.8952L10.64 14.4852C10.5 14.6352 10.3 14.7052 10.11 14.7052Z"
                     fill="var(--container-color)"
                   ></path>
-                </svg>
-        </button>
+                  </svg>
+                  </button>
                 </form>
             </div>
         </div>
