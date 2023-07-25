@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/damar-glh/me/static/css/main.6ed9a8a8.css",
+    "main.js": "/damar-glh/me/static/js/main.3bccea33.js",
+    "static/js/787.ee95881d.chunk.js": "/damar-glh/me/static/js/787.ee95881d.chunk.js",
+    "static/media/profile.jpg": "/damar-glh/me/static/media/profile.4ee14601a49c773e9516.jpg",
+    "static/media/coca-cola.png": "/damar-glh/me/static/media/coca-cola.2435c56fa8850462ca25.png",
+    "static/media/CV.pdf": "/damar-glh/me/static/media/CV.18fbd41d7f31fb33756c.pdf",
+    "static/media/about.jpg": "/damar-glh/me/static/media/about.5afe47fae5d842a577fb.jpg",
+    "static/media/shoes.png": "/damar-glh/me/static/media/shoes.eb61308c73841d773bce.png",
+    "static/media/me.png": "/damar-glh/me/static/media/me.21396639a9313e06add2.png",
+    "static/media/testimonial3.png": "/damar-glh/me/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/testimonial2.png": "/damar-glh/me/static/media/testimonial2.39a53f7f092f07f5bceb.png",
+    "static/media/testimonial1.png": "/damar-glh/me/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "static/media/c.svg": "/damar-glh/me/static/media/c.a469bf403d711ab78b2a86be8e4db14e.svg",
+    "static/media/php.svg": "/damar-glh/me/static/media/php.f3c5541e97b6f021158dbb5c004f4ce2.svg",
+    "static/media/bootstrap.svg": "/damar-glh/me/static/media/bootstrap.ddd02fbfb8859f7a53e0304a98772a88.svg",
+    "static/media/reactjs.svg": "/damar-glh/me/static/media/reactjs.bddb46063f01e2d338a386e7e2727c0e.svg",
+    "static/media/cpp.svg": "/damar-glh/me/static/media/cpp.ff1447e03741d00cee3427c6a992ed10.svg",
+    "static/media/csharp.svg": "/damar-glh/me/static/media/csharp.04c74d9c8173af1c35819fa3cf02d94a.svg",
+    "static/media/tailwindcss.svg": "/damar-glh/me/static/media/tailwindcss.752a6e4c0fc31514a245f307bf18b47b.svg",
+    "static/media/git.svg": "/damar-glh/me/static/media/git.5f922b0c35f14b89b1ace7dcf674fa23.svg",
+    "static/media/js.svg": "/damar-glh/me/static/media/js.f54a98240ba9abc20c3de4822e28bc0b.svg",
+    "static/media/css.svg": "/damar-glh/me/static/media/css.160546e05af1d1059313388838579ff0.svg",
+    "static/media/html.svg": "/damar-glh/me/static/media/html.a86bd28b72d0a3aad7e966f704f8c0dc.svg",
+    "index.html": "/damar-glh/me/index.html",
+    "main.6ed9a8a8.css.map": "/damar-glh/me/static/css/main.6ed9a8a8.css.map",
+    "main.3bccea33.js.map": "/damar-glh/me/static/js/main.3bccea33.js.map",
+    "787.ee95881d.chunk.js.map": "/damar-glh/me/static/js/787.ee95881d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ed9a8a8.css",
+    "static/js/main.3bccea33.js"
+  ]
+}
