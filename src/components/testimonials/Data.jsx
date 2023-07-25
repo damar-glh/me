@@ -13,13 +13,13 @@ export const Data = [
       image: user,
       title: "Nasir Amin",
       description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+      "Professionalism and top-notch quality define this web programmer.He also pays great attention.",
     },
     {
       id: 3,
       image: user,
       title: "Ahmad Mubarok",
       description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+        "Responsive, friendly, and possessing an excellent work ethic. Undoubtedly the best choice for your web projects",
     },
   ];
