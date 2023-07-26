@@ -44,7 +44,7 @@ const Learning = () => {
             <div className="learning__content">
                 <div>
                     <i className="uil uil-web-grid learning__icon"></i>
-                    <h3 className="learning__title">Project <br /> Managinng</h3>
+                    <h3 className="learning__title">Project <br /> Managing</h3>
                 </div>
                 <span className="learning__button" onClick={() => toggleTab(2)}>View More <i className="uil uil-arrow-right learning__button-icon"></i></span>
                 <div className={toggleState === 2 ? "learning__modal active-modal" : "learning__modal"}>
