@@ -18,6 +18,9 @@ const Footer = () => {
                 </li>
             </ul>
             <div className="footer__social">
+            <a href="https://www.youtube.com/channel/UCzvicrZgebz5faHpineRWlg" className="footer__social-link" target="_blank" rel="noreferrer">
+            <i className="bx bxl-youtube"></i>
+            </a>
             <a href="https://www.instagram.com/invites/contact/?i=1qn7f0ctoxn2r&utm_content=4rioy6h" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-instagram"></i>
             </a>
