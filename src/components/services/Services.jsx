@@ -44,7 +44,7 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <i className="uil uil-web-grid services__icon"></i>
-                    <h3 className="services__title">Project <br /> Management</h3>
+                    <h3 className="services__title">Project <br /> Managinng</h3>
                 </div>
                 <span className="services__button" onClick={() => toggleTab(2)}>View More <i className="uil uil-arrow-right services__button-icon"></i></span>
                 <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
