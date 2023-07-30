@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import "./header.css";
 
 const Header = () => {
+    /*=========== Change dark mode ============= */
     const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Function to toggle dark mode
+    /*=========== function dark mode ============= */
     const toggleDarkMode = () => {
         setIsDarkMode(!isDarkMode);
-    };
+    }
 
     /*=========== Change background header ============= */
     window.addEventListener("scroll", function() {
@@ -60,7 +61,12 @@ const Header = () => {
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="">
+                            <a href="#dark-mode" onClick={() => {
+                                setActiveNav("#dark-mode");
+                                toggleDarkMode();
+                            }} className= {
+                                activeNav === "#dark-mode" ? "nav__link active-link" : "nav__link"
+                            }>
                                 <i className="uil uil-toggle-on nav-dark-toggle"></i>
                             </a>
                         </li>
