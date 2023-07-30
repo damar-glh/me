@@ -61,14 +61,9 @@ const Header = () => {
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#dark-mode" onClick={() => {
-                                setActiveNav("#dark-mode");
-                                toggleDarkMode();
-                            }} className= {
-                                activeNav === "#dark-mode" ? "nav__link active-link" : "nav__link"
-                            }>
-                                <i className="uil uil-toggle-on nav-dark-toggle"></i>
-                            </a>
+                            <button onClick={toggleDarkMode}>
+                                <i className={`uil ${isDarkMode ? "uil-toggle-off" : "uil-toggle-on"}`}></i>
+                            </button>
                         </li>
                     </ul>
                     <i className="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>
