@@ -68,6 +68,9 @@
     background-color: var(--title-color-dark);
 }
 
+.uil-toggle-off:before {
+    background-color: var(--title-color-dark)
+}
 @media screen and (max-width: 768px){
     .header {
         top: initial;
