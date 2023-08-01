@@ -113,6 +113,13 @@
     color: var(--title-color);
 }
 
+/*=============== dark-mode ===============*/
+:is(.dark-mode) .home {
+    /* gaya elemen ketika dark mode aktif */
+    background: var(--title-color); 
+    color: var(--text-color);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
@@ -13,12 +13,17 @@ import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 
 const App = () => {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setIsDarkMode(prevDarkMode => !prevDarkMode);
+  };
   return (
     <>
-    <Header />
+    <Header isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
     
     <main className='main'>
-      <Home />
+      <Home isDarkMode={isDarkMode}/>
       <About />
       <Skills />
       <Learning />
