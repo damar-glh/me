@@ -25,7 +25,7 @@ const App = () => {
     <main className='main'>
       <Home isDarkMode={isDarkMode}/>
       <About isDarkMode={isDarkMode} />
-      <Skills />
+      <Skills isDarkMode={isDarkMode} />
       <Learning />
       <Qualification />
       <Work />
