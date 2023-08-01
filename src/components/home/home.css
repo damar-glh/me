@@ -136,6 +136,14 @@
     background: var(--text-color);
 }
 
+:is(.dark-mode) .home__scroll-mouse {
+    filter: invert(1);
+}
+
+:is(.dark-mode) .home__scroll-name,
+:is(.dark-mode) .home__scroll-arrow {
+    color: var(--body-color);
+}
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
