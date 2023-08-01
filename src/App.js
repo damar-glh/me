@@ -26,8 +26,8 @@ const App = () => {
       <Home isDarkMode={isDarkMode}/>
       <About isDarkMode={isDarkMode} />
       <Skills isDarkMode={isDarkMode} />
-      <Learning />
-      <Qualification />
+      <Learning isDarkMode={isDarkMode} />
+      <Qualification isDarkMode={isDarkMode} />
       <Work />
       <Testimonials />
       <Contact />

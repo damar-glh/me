@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import "./learning.css";
 
-const Learning = () => {
+const Learning = ({isDarkMode}) => {
     const [toggleState, setToggleState] = useState(0);
     const toggleTab = (index) => {
         setToggleState(index);
     }
   return (
-    <section className="learning section" id="learning">
+    <section className={`learning section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="learning">
         <h2 className="section__title">Learning</h2>
         <span className="section__subtitle">I learned about</span>
         <div className="learning__container container grid">
