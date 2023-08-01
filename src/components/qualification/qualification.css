@@ -80,6 +80,20 @@
     transform: translate(6px, -7px)
 }
 
+/* dark mode  */
+:is(.dark-mode) .qualification__button {
+    color: var(--text-color);
+}
+
+:is(.dark-mode) .qualification__active {
+    color: var(--body-color);
+}
+
+:is(.dark-mode) .qualification__title,
+:is(.dark-mode) .qualification__subtitle {
+    color: var(--body-color);
+}
+
 /* For large devices */
 @media screen and (max-width: 992px) {
     .qualification__container {

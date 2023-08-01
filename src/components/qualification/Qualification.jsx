@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import './qualification.css';
 
-const Qualification = () => {
+const Qualification = ({isDarkMode}) => {
     const [toggleState, setToggleState] = useState(1);
     const toggleTab = (index) => {
         setToggleState(index);
     }
   return (
-    <section className="qualification section" id='qualification'>
+    <section className={`qualification section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="qualification">
         <h2 className="section__title">Qualification</h2>
         <span className="section__subtitle">My personal journey</span>
         <div className="qualification__container container">
