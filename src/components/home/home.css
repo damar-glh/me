@@ -136,6 +136,10 @@
     background: var(--text-color);
 }
 
+:is(.dark-mode) .button:hover {
+    background: var(--title-color-dark);
+}
+
 :is(.dark-mode) .home__scroll-mouse {
     filter: invert(1);
 }
