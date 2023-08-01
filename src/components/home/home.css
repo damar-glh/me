@@ -120,6 +120,22 @@
     color: var(--text-color);
 }
 
+:is(.dark-mode) .home__title {
+    color: var(--body-color);
+}
+
+:is(.dark-mode) .home__subtitle {
+    color: var(--body-color);
+}
+
+:is(.dark-mode) .home__social-icon {
+    color: var(--body-color);
+}
+
+:is(.dark-mode) .button {
+    background: var(--text-color);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
