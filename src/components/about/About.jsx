@@ -4,9 +4,9 @@ import AboutImg from "../../assets/about.jpg";
 import CV from "../../assets/CV.pdf"
 import Info from './Info';
 
-const About = () => {
+const About = ({isDarkMode}) => {
   return (
-    <section className="about section" id="about">
+    <section className={`about section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="about">
         <h2 className="section__title">About Me</h2>
             <span className="section__subtitle">My Intereduction</span>
             <div className="about__container container grid">

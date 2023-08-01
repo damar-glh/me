@@ -115,8 +115,7 @@
 
 /*=============== dark-mode ===============*/
 :is(.dark-mode) .home {
-    /* gaya elemen ketika dark mode aktif */
-    background: var(--title-color); 
+background: var(--title-color); 
     color: var(--text-color);
 }
 
@@ -148,6 +147,7 @@
 :is(.dark-mode) .home__scroll-arrow {
     color: var(--body-color);
 }
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
