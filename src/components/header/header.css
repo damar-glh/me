@@ -69,14 +69,17 @@
 }
 
 :is(.dark-mode) .nav__logo,
-:is(.dark-mode) .nav__link, 
 :is(.dark-mode) .nav__link.active-link {
     color: var(--body-color);
 }
 
+:is(.dark-mode) .nav__link {
+    color: var(--text-color);
+}
+
 .uil-toggle-off:before {
     background-color: var(--title-color);
-    color: var(--body-color);
+    color: var(--text-color);
 }
 
 @media screen and (max-width: 768px){
