@@ -65,18 +65,20 @@
 
 /* dark-mode */
 .dark-mode {
-    background-color: var(--title-color-dark);
+    background-color: var(--title-color);
 }
 
+:is(.dark-mode) .nav__logo,
 :is(.dark-mode) .nav__link, 
 :is(.dark-mode) .nav__link.active-link {
     color: var(--body-color);
 }
 
 .uil-toggle-off:before {
-    background-color: var(--title-color-dark);
+    background-color: var(--title-color);
     color: var(--body-color);
 }
+
 @media screen and (max-width: 768px){
     .header {
         top: initial;
