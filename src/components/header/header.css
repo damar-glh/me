@@ -68,8 +68,14 @@
     background-color: var(--title-color-dark);
 }
 
+:is(.dark-mode) .nav__link, 
+:is(.dark-mode) .nav__link.active-link {
+    color: var(--body-color);
+}
+
 .uil-toggle-off:before {
-    background-color: var(--title-color-dark)
+    background-color: var(--title-color-dark);
+    color: var(--body-color);
 }
 @media screen and (max-width: 768px){
     .header {
