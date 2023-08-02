@@ -68,6 +68,19 @@ work__button-icon {
     color: var(--container-color);
 }
 
+/* dark mode */
+:is(.dark-mode) .work__item {
+    color: var(--body-color);
+}
+
+:is(.dark-mode) .work__item:hover {
+    background-color: var(--title-color-dark);
+}
+
+:is(.dark-mode) .active-work {
+    background-color: var(--text-color);
+}
+
 /* For large devices */
 @media screen and (max-width: 992px) {
     .work__container {
