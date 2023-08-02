@@ -11,29 +11,26 @@ const Backend = () => {
         <div className="skills__box">
             <div className="skills__group">
                 <div className="skills__data">
-                    <img src={c} alt="" className='skills__component' />
-                    <div>
+                    <a href="https://www.learn-c.org/" target='_blank'><img src={c} alt="" className='skills__component' /></a>                <div>
                         <h3 className="skills__name">C</h3>
                         <span className="skills__level">Novice</span>
                     </div>
                 </div>
                 <div className="skills__data">
-                    <img src={cpp} alt="" className='skills__component' />
-                    <div>
+                    <a href="https://cplusplus.com/" target='_blank'><img src={cpp} alt="" className='skills__component' /></a>                  <div>
                         <h3 className="skills__name">C++</h3>
                         <span className="skills__level">Beginner</span>
                     </div>
                 </div>
                 <div className="skills__data">
-                    <img src={csharp} alt="" className='skills__component' />
+                    <a href="https://dotnet.microsoft.com/en-us/languages/csharp" target='_blank'><img src={csharp} alt="" className='skills__component' /></a>
                     <div>
                         <h3 className="skills__name">C#</h3>
                         <span className="skills__level">Beginner</span>
                     </div>
                 </div>
                 <div className="skills__data">
-                    <img src={php} alt="" className='skills__component' />
-                    <div>
+                    <a href="https://www.php.net/" target='_blank'><img src={php} alt="" className='skills__component' /></a>                  <div>
                         <h3 className="skills__name">PHP</h3>
                         <span className="skills__level">Novice</span>
                     </div>
