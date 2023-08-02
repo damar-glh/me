@@ -32,7 +32,7 @@ const App = () => {
       <Testimonials isDarkMode={isDarkMode} />
       <Contact isDarkMode={isDarkMode} />
     </main>
-    <Footer />
+    <Footer isDarkMode={isDarkMode} />
     <ScrollUp />
     </>
   )
