@@ -33,7 +33,7 @@ const App = () => {
       <Contact isDarkMode={isDarkMode} />
     </main>
     <Footer isDarkMode={isDarkMode} />
-    <ScrollUp isDarkMode={isDarkMode} />
+    <ScrollUp />
     </>
   )
 }
