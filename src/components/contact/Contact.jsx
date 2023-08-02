@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
 
-const Contact = () => {
+const Contact = ({isDarkMode}) => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -11,7 +11,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <section className="contact section" id="contact">
+    <section className={`contact section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="contact">
         <h2 className="section__title">Get in touch</h2>
         <span className="section__subtitle">Contact Me</span>
         <div className="contact__container container grid">

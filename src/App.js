@@ -30,7 +30,7 @@ const App = () => {
       <Qualification isDarkMode={isDarkMode} />
       <Work isDarkMode={isDarkMode} />
       <Testimonials isDarkMode={isDarkMode} />
-      <Contact />
+      <Contact isDarkMode={isDarkMode} />
     </main>
     <Footer />
     <ScrollUp />
