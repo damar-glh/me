@@ -66,6 +66,7 @@
 /* dark-mode */
 .dark-mode {
     background-color: var(--title-color);
+    max-weight
 }
 
 :is(.dark-mode) .nav__logo,
