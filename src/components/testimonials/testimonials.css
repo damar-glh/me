@@ -35,6 +35,15 @@ img.testimonial__img {
     background-color: var(--title-color) !important;
 }
 
+/* dark-mode */
+.dark-mode {
+    max-width: none;
+}
+
+:is(.dark-mode) .swiper-pagination-bullet {
+    background-color: var(--body-color) !important;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

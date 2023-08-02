@@ -11,9 +11,9 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
 
-const Testimonials = () => {
+const Testimonials = ({isDarkMode}) => {
   return (
-    <section className="testimonial container section" id="testimonials">
+    <section  className={`testimonial container section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="testimonials">
         <h2 className="section__title">My client say</h2>
         <span className="section__subtitle">Testimonial</span>
         <Swiper className="testimonial__container"
