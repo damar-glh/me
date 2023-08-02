@@ -142,6 +142,25 @@
     .nav__toggle {
         display: block;
     }
+
+    /* dark mode */
+    :is(.dark-mode) .nav__menu {
+        background-color: var(--title-color);
+    }
+
+    :is(.dark-mode) .nav__logo,
+    :is(.dark-mode) .nav__toggle,
+    :is(.dark-mode) .uil-toggle-off:before {
+        color: var(--body-color);
+    }
+
+    :is(.light-mode) .nav__toggle {
+        color: var(--title-color);
+    }
+
+    :is(.dark-mode) .nav__close {
+        color: var(--text-color);
+    }
 }
 
 @media screen and (max-width: 350px) {

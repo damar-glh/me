@@ -52,15 +52,13 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
                                 <i className="uil uil-message nav__icon"></i> Contact
                             </a>
                         </li>
-                        <li className="nav__item">
-                            <div className="nav__link">
-                            <button onClick={toggleDarkMode} className="nav-dark-toggle">
-                                <i className={`uil ${isDarkMode ? "uil-toggle-off" : "uil-toggle-on"} nav-dark-toggle`}></i>
-                            </button>
-                            </div>
-                        </li>
                     </ul>
                     <i className="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>
+                </div>
+                <div className="nav__link">
+                    <button onClick={toggleDarkMode} className="nav-dark-toggle">
+                        <i className={`uil ${isDarkMode ? "uil-toggle-off" : "uil-toggle-on"} nav-dark-toggle`}></i>
+                    </button>
                 </div>
                 <nav className="nav__toggle" onClick={() => showMenu(!Toggle)}>
                     <i className="uil uil-apps"></i>
