@@ -1,3 +1,7 @@
+#testimonial {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .testimonial__container {
     width: 750px;
 }
@@ -51,8 +55,25 @@ img.testimonial__img {
     width: initial;
    } 
 
+   #testimonials {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 6rem 2rem 0 2rem;
+  }
+
    .testimonial__card {
     padding: 1.25rem 1.5rem;
    }
 }
-  
+
+@media screen and (max-width: 768px) {
+    #testimonials {
+        padding: 0.5rem 2rem 0 2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #testimonials {
+        padding: 3rem 2rem 0 2rem;
+    } 
+}
