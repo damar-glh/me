@@ -206,6 +206,10 @@ background: var(--title-color);
         grid-column: 1/3;
     }
 
+    .home__description {
+        text-align: justify;
+    }
+
     .home__scroll {
         display: none;
     }

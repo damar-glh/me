@@ -55,7 +55,7 @@ function Data() {
         </svg>
         </h1>
         <h3 className="home__subtitle">Web Developer</h3>
-        <p className="home__description">I am a human who is fascinated by the realm of technology, particularly in the realm of development and creation.</p>
+        <p className="home__description">Transforming concepts into interactive websites, I blend creativity with technology in my role as a web developer. </p>
         <a href="#contact" className="button button--flex">
             Say Haiii
             <svg
