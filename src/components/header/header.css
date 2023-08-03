@@ -43,10 +43,6 @@
     display: none;
 }
 
-.uil-toggle-on:before {
-    background-color: var(--body-color);
-}
-
 .nav-dark-toggle {
     display: flex;
     flex-direction: column;
@@ -81,7 +77,7 @@
     color: var(--text-color);
 }
 
-.uil-toggle-off:before {
+.uil-brightness:before {
     background-color: var(--title-color);
     color: var(--text-color);
 }
@@ -154,7 +150,7 @@
 
     :is(.dark-mode) .nav__logo,
     :is(.dark-mode) .nav__toggle,
-    :is(.dark-mode) .uil-toggle-off:before {
+    :is(.dark-mode) .uil-brightness:before {
         color: var(--body-color);
     }
 

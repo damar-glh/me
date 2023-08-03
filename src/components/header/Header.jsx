@@ -57,7 +57,7 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
                 </div>
                 <div className="nav__link">
                     <button onClick={toggleDarkMode} className="nav-dark-toggle"> 
-                        <i className={`uil ${isDarkMode ? "uil-toggle-off" : "uil-toggle-on"} nav-dark-toggle`}></i>
+                        <i className={`uil ${isDarkMode ? "uil-brightness" : "uil-moon"} nav-dark-toggle`}></i>
                     </button>
                 </div>
                 <nav className="nav__toggle" onClick={() => showMenu(!Toggle)}>
