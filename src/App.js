@@ -17,12 +17,21 @@ const App = () => {
 
   const toggleDarkMode = () => {
     setIsDarkMode(prevDarkMode => !prevDarkMode);
+    localStorage.setItem("darkMode", !isDarkMode ? "enabled" : "disabled");
   };
+
+  useState(() => {
+    const darkModePreference = localStorage.getItem("darkMode");
+    if (darkModePreference === "enabled") {
+      setIsDarkMode(true);
+    }
+  }, []);
+
   return (
     <>
     <Header isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
     
-    <main className='main'>
+    <main className={`main ${isDarkMode ? "dark-mode" : "light-mode"}`}>
       <Home isDarkMode={isDarkMode}/>
       <About isDarkMode={isDarkMode} />
       <Skills isDarkMode={isDarkMode} />
