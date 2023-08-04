@@ -50,9 +50,6 @@
     color: var(--body-color);
 }
 
-:is(.dark-mode) .dark-mode {
-    color: var(--body-color);
-}
 
 /* For large devices */
 @media screen and (max-width: 992px) {
