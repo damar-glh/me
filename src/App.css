@@ -182,9 +182,12 @@ img {
   max-width: 150px;
 }
 
+.loader.light-mode {
+  background-color: var(--container-color);
+}
+
 .loader.light-mode video {
   max-width: 400px;
-  background-color: var(--container-color);
 }
 
 /*=============== BREAKPOINTS ===============*/
