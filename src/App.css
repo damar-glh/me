@@ -178,7 +178,7 @@ img {
 }
 
 .loader img {
-  max-width: 100px; /* Sesuaikan ukuran GIF loader */
+  max-width: 100px;
 }
 
 /*=============== BREAKPOINTS ===============*/

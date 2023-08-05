@@ -27,17 +27,16 @@ const App = () => {
       setIsDarkMode(true);
     }
     
-    // Simulate a delay to show the loader
     setTimeout(() => {
       setIsLoading(false);
-    }, 1500); // You can adjust the delay as needed
+    }, 1500); 
   }, []);
 
   return (
     <>
-      {isLoading ? ( // Display loader while loading
+      {isLoading ? ( 
         <div className="loader">
-          <img src={'./../src/assets/loader.gif'} alt="Loading..." />
+          <img src={process.env.PUBLIC_URL + '/loader.gif'} alt="Loading..." />
         </div>
       ) : (
         <>
