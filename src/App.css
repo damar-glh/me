@@ -184,6 +184,7 @@ img {
 
 .loader.light-mode video {
   max-width: 400px;
+  background-color: var(--body-color)
 }
 
 /*=============== BREAKPOINTS ===============*/
