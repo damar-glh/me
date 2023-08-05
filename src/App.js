@@ -35,8 +35,8 @@ const App = () => {
   return (
     <>
       {isLoading ? ( 
-        <div className="loader">
-          <video src={process.env.PUBLIC_URL + '/loader-light.mp4'} autoPlay loop muted />
+        <div className={`loader ${isDarkMode ? "dark-mode" : "light-mode"}`}>
+          <video src={process.env.PUBLIC_URL + '/loader.mp4'} autoPlay loop muted />
         </div>
       ) : (
         <>
