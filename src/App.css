@@ -177,8 +177,8 @@ img {
   height: 100vh;
 }
 
-.loader img {
-  max-width: 100px;
+.loader video {
+  max-width: 400px;
 }
 
 /*=============== BREAKPOINTS ===============*/

@@ -29,14 +29,14 @@ const App = () => {
     
     setTimeout(() => {
       setIsLoading(false);
-    }, 1500); 
+    }, 2000); 
   }, []);
 
   return (
     <>
       {isLoading ? ( 
         <div className="loader">
-          <img src={process.env.PUBLIC_URL + '/loader.gif'} alt="Loading..." />
+          <video src={process.env.PUBLIC_URL + '/loader-light.mp4'} autoPlay loop muted />
         </div>
       ) : (
         <>
