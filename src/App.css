@@ -179,9 +179,10 @@ img {
 
 .loader.dark-mode video {
   border-radius: 50%;
+  max-width: 150px;
 }
 
-.loader video {
+.loader.light-mode video {
   max-width: 400px;
 }
 
