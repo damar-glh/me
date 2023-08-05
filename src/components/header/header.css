@@ -72,6 +72,11 @@
     background-color: var(--title-color);
 }
 
+/* light-mode */
+.light-mode {
+    background-color: var(--container-color);
+}
+
 :is(.dark-mode) .nav__logo,
 :is(.dark-mode) .nav__link.active-link {
     color: var(--body-color);
