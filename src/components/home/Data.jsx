@@ -1,9 +1,28 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 
 function Data() {
+  const [animatedText, setAnimatedText] = useState('');
+  const text = " Damar Glh ";
+
+  useEffect(() => {
+    let interval;
+    let currentIndex = 0;
+
+    const animateText = () => {
+      if(currentIndex === text.length) {
+        currentIndex = 0;
+      }
+      setAnimatedText(text.substring(0, currentIndex + 1 ));
+      currentIndex++;
+    }
+
+    interval = setInterval(animateText, 1000);
+    return () => clearInterval(interval);
+  }, [text]);
+
   return (
     <div className="home__data">
-        <h1 className="home__title">Damar Glh 
+        <h1 className="home__title">{animatedText} 
         <svg
                   width="36"
                   height="36"
