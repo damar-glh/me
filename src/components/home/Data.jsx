@@ -16,7 +16,7 @@ function Data() {
       currentIndex++;
     }
 
-    interval = setInterval(animateText, 1000);
+    interval = setInterval(animateText, 800);
     return () => clearInterval(interval);
   }, [text]);
 
