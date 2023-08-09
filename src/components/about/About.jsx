@@ -1,10 +1,27 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
 import CV from "../../assets/CV.pdf"
 import Info from './Info';
 
 const About = ({isDarkMode}) => {
+  const [animatedText, setAnimatedText] = useState('');
+  const text = " I am a human who is fascinated by the realm of technology, particularly in the realm of development and creation. I strive to continually expand my knowledge and gain fresh experiences. However, concurrently, my fondness for philosophy grants me expertise in comprehending identity and the significance of life. ";
+
+  useEffect(() => {
+    let currentIndex = 0;
+    const interval = setInterval(() => {
+      if (currentIndex < text.length) {
+        setAnimatedText(prevText => prevText + text[currentIndex]);
+        currentIndex++;
+      } else {
+        clearInterval(interval);
+      }
+    }, 100);
+
+    return () => clearInterval(interval); 
+  }, [text]);
+
   return (
     <section className={`about section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="about">
         <h2 className="section__title">About Me</h2>
@@ -14,7 +31,7 @@ const About = ({isDarkMode}) => {
               <div className="about__data">
                 <Info />
                 <p className="about__description">
-                I am a human who is fascinated by the realm of technology, particularly in the realm of development and creation. I strive to continually expand my knowledge and gain fresh experiences. However, concurrently, my fondness for philosophy grants me expertise in comprehending identity and the significance of life.
+                  {animatedText}
                 </p>
                 <a download="" href={CV} className="button button--flex">Download CV
                 <svg
