@@ -76,7 +76,7 @@ function Data() {
         <h3 className="home__subtitle">Web Developer</h3>
         <p className="home__description">Transforming concepts into interactive websites, I blend creativity with technology in my role as a web developer. </p>
         <a href="#contact" className="button button--flex">
-            Say Haiii
+            Say Hello
             <svg
                   className="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
