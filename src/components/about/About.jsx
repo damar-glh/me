@@ -9,17 +9,19 @@ const About = ({isDarkMode}) => {
   const text = " I am a human who is fascinated by the realm of technology, particularly in the realm of development and creation. I strive to continually expand my knowledge and gain fresh experiences. However, concurrently, my fondness for philosophy grants me expertise in comprehending identity and the significance of life. ";
 
   useEffect(() => {
+    let interval;
     let currentIndex = 0;
-    const interval = setInterval(() => {
-      if (currentIndex < text.length) {
-        setAnimatedText(prevText => prevText + text[currentIndex]);
-        currentIndex++;
-      } else {
-        clearInterval(interval);
-      }
-    }, 100);
 
-    return () => clearInterval(interval); 
+    const animateText = () => {
+      if(currentIndex === text.length) {
+        currentIndex = 0;
+      }
+      setAnimatedText(text.substring(0, currentIndex + 1 ));
+      currentIndex++;
+    }
+
+    interval = setInterval(animateText, 200);
+    return () => clearInterval(interval);
   }, [text]);
 
   return (
