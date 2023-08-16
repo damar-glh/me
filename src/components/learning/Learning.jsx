@@ -60,7 +60,7 @@ const Learning = ({isDarkMode}) => {
                 <span className="learning__button" onClick={() => toggleTab(1)}>View More <i className="uil uil-arrow-right learning__button-icon"></i></span>
                 <div className={toggleState === 1 ? "learning__modal active-modal" : "learning__modal"}>
                     <div className="learning__modal-content">
-                        <i onClick={() => toggleTab(0)} className="uil uil-times learning__modal-close"></i>
+                        <i onClick={() => toggleTab(1)} className="uil uil-times learning__modal-close"></i>
                         <h3 className="learning__modal-title">Software Developer</h3>
                         <p className="learning__modal-description">{animatedText}</p>
                     </div>
@@ -74,7 +74,7 @@ const Learning = ({isDarkMode}) => {
                 <span className="learning__button" onClick={() => toggleTab(2)}>View More <i className="uil uil-arrow-right learning__button-icon"></i></span>
                 <div className={toggleState === 2 ? "learning__modal active-modal" : "learning__modal"}>
                     <div className="learning__modal-content">
-                        <i onClick={() => toggleTab(0)} className="uil uil-times learning__modal-close"></i>
+                        <i onClick={() => toggleTab(2)} className="uil uil-times learning__modal-close"></i>
                         <h3 className="learning__modal-title">Update Technology</h3>
                         <p className="learning__modal-description">{animatedText}</p>
                     </div>
@@ -88,7 +88,7 @@ const Learning = ({isDarkMode}) => {
                 <span className="learning__button" onClick={() => toggleTab(3)}>View More <i className="uil uil-arrow-right learning__button-icon"></i></span>
                 <div className={toggleState === 3 ? "learning__modal active-modal" : "learning__modal"}>
                     <div className="learning__modal-content">
-                        <i onClick={() => toggleTab(0)} className="uil uil-times learning__modal-close"></i>
+                        <i onClick={() => toggleTab(3)} className="uil uil-times learning__modal-close"></i>
                         <h3 className="learning__modal-title">Project Management</h3>
                         <p className="learning__modal-description">{animatedText}</p>
                     </div>
