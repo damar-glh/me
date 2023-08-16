@@ -4,7 +4,17 @@ import "./learning.css";
 const Learning = ({isDarkMode}) => {
     const [toggleState, setToggleState] = useState(0);
     const toggleTab = (index) => {
-        setToggleState(index);
+        if (index === toggleState) {
+            setToggleState(0);
+            resetAnimatedText();
+        } else {
+            setToggleState(index);
+            resetAnimatedText();
+        }
+    }
+
+    const resetAnimatedText = () => {
+        setAnimatedText('');
     }
 
     const animateText = (text, callback) => {
@@ -26,6 +36,7 @@ const Learning = ({isDarkMode}) => {
 
     const [animatedText, setAnimatedText] = useState('');
     useEffect(() => {
+        setAnimatedText('')
         if (toggleState === 1) {
             animateText(" As a software developer, I possess creative and innovative skills in crafting compelling software products. I actively collaborate with a team of developers, designers, and stakeholders, placing a strong emphasis on user satisfaction. My main objective is to deliver products that perform optimally, while staying abreast of current industry trends and being responsive to user feedback. Throughout the software development lifecycle, I meticulously attend to even the minutest details and serve as a dependable problem solver. With proficient time management abilities, I consistently produce innovative and top-notch software products. ", () => {});
         } else if (toggleState === 2) {
@@ -35,7 +46,6 @@ const Learning = ({isDarkMode}) => {
         }
     }, [toggleState])
 
-    // error learning__description after click
   return (
     <section className={`learning section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="learning">
         <h2 className="section__title">Learning</h2>
