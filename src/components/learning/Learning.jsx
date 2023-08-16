@@ -46,6 +46,7 @@ const Learning = ({isDarkMode}) => {
         }
     }, [toggleState])
 
+    // error learning__description after click
   return (
     <section className={`learning section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="learning">
         <h2 className="section__title">Learning</h2>
