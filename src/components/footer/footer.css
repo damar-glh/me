@@ -70,6 +70,10 @@
     background-color: var(--text-color);
 }
 
+:is(.dark-mode) .footer__social-link:hover {
+    background-color: var(--title-color-dark);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
