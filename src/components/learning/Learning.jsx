@@ -6,6 +6,7 @@ const Learning = ({isDarkMode}) => {
     const toggleTab = (index) => {
         setToggleState(index);
     }
+    
   return (
     <section className={`learning section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="learning">
         <h2 className="section__title">Learning</h2>
