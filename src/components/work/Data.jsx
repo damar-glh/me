@@ -10,18 +10,21 @@ export const projectsData = [
     image: Work1,
     title: "Coca-Cola Web",
     category: "web",
+    link : "https://damar-glh.github.io/me/",
   },
   {
     id: 2,
     image: Work2,
     title: "Porto Web",
     category: "web",
+    link : "https://damar-glh.github.io/me/",
   },
   {
     id: 3,
     image: Work3,
     title: "Shoes Web",
     category: "web",
+    link : "https://damar-glh.github.io/me/",
   },
   // {
   //   id: 4,
