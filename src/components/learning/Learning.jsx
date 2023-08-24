@@ -22,7 +22,7 @@ const Learning = ({isDarkMode}) => {
                     <div className="learning__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times learning__modal-close"></i>
                         <h3 className="learning__modal-title">Software Developer</h3>
-                        <p className="learning__modal-description">As a software developer, I possess creative and innovative skills in crafting compelling software products. I actively collaborate with a team of developers, designers, and stakeholders, placing a strong emphasis on user satisfaction. My main objective is to deliver products that perform optimally, while staying abreast of current industry trends and being responsive to user feedback. Throughout the software development lifecycle, I meticulously attend to even the minutest details and serve as a dependable problem solver. With proficient time management abilities, I consistently produce innovative and top-notch software products. </p>
+                        <p className="learning__modal-description">I'm a creative software developer who collaborates effectively with cross-functional teams to deliver optimal software products that prioritize user satisfaction. My keen attention to detail and problem-solving skills shine throughout the development lifecycle. By staying updated on industry trends and valuing user feedback, I consistently produce innovative, high-quality software within set timelines.</p>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@ const Learning = ({isDarkMode}) => {
                     <div className="learning__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times learning__modal-close"></i>
                         <h3 className="learning__modal-title">Update Technology</h3>
-                        <p className="learning__modal-description">Learning about Update Technology fascinates me with its rapid advancements in the digital world. It opens up opportunities across various industries and keeps me relevant in this ever-changing landscape. Understanding it is crucial for success in the modern era, where technology updates constantly. Exploring this field is an exciting journey of empowerment and real-life solutions, urging me to continuously adapt and stay competitive in the fast-moving industry. It's like an endless adventure, always offering something new to discover.</p>
+                        <p className="learning__modal-description">Exploring the ever-evolving realm of Update Technology is not only fascinating but also vital for contemporary success. It empowers me to remain competitive in an ever-changing landscape by offering real-world solutions across industries. This journey of constant adaptation and empowerment is akin to an endless adventure filled with new discoveries.</p>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@ const Learning = ({isDarkMode}) => {
                     <div className="learning__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times learning__modal-close"></i>
                         <h3 className="learning__modal-title">Project Management</h3>
-                        <p className="learning__modal-description">As a provider of project management services, I, as the client, can rely on my expertise and experience in successfully managing projects. In my role as a project manager, I offer a collaborative approach and prioritize client satisfaction. I understand the importance of time, budget, and quality in every project I handle. With strong communication skills and effective leadership abilities, I ensure that the team works efficiently and in an organized manner. I prioritize creative problem-solving, pay attention to detail, and remain committed to delivering innovative and high-quality end products. With my support as a provider of project management services, you can be confident that your project will be executed with success and high efficiency. </p>
+                        <p className="learning__modal-description">With my extensive project management expertise and successful track record, I assure you of reliable service. My collaborative approach and focus on client satisfaction underscore my role as a project manager. Time, budget, and quality are paramount in my projects. I excel in communication and leadership, ensuring efficient teamwork. Creative solutions, attention to detail, and dedication to innovation define my work. Trust in my project management services for a successful and efficient project execution.. </p>
                     </div>
                 </div>
             </div>
