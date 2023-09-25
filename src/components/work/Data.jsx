@@ -10,7 +10,7 @@ export const projectsData = [
     image: Work1,
     title: "Landing Page With Bootstrap",
     category: "web",
-    link : "https://damar-glh.github.io/me/",
+    link : "https://damar-glh.github.io/landing-page-bootstrap/",
   },
   {
     id: 2,
