@@ -1,14 +1,14 @@
-import Work1 from "../../assets/coca-cola.png";
+import Work1 from "../../assets/landing-page.jpg";
 import Work2 from "../../assets/me.png";
 import Work3 from "../../assets/shoes.png";
-// import Work4 from "../../assets/work4.jpg";
+import Work4 from "../../assets/coca-cola.png";
 // import Work5 from "../../assets/work5.jpg";
 
 export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Coca-Cola Web",
+    title: "Landing Page With Bootstrap",
     category: "web",
     link : "https://damar-glh.github.io/me/",
   },
@@ -26,12 +26,13 @@ export const projectsData = [
     category: "web",
     link : "https://damar-glh.github.io/me/",
   },
-  // {
-  //   id: 4,
-  //   image: Work4,
-  //   title: "App movil",
-  //   category: "app",
-  // },
+  {
+    id: 4,
+    image: Work4,
+    title: "Coca-Cola Web",
+    category: "web",
+    link : "https://damar-glh.github.io/me/",
+  },
   // {
   //   id: 5,
   //   image: Work5,

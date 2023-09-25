@@ -36,7 +36,13 @@
 .work__img {
     width: 295px;
     border-radius: 1rem;
-    margin-bottom: var(--mb-1)
+    margin-bottom: var(--mb-1);
+    filter: grayscale(100%);
+}
+
+.work__img:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
 }
 
 .work__title {
