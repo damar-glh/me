@@ -2,7 +2,8 @@ import Work1 from "../../assets/landing-page.jpg";
 import Work2 from "../../assets/me.png";
 import Work3 from "../../assets/shoes.png";
 import Work4 from "../../assets/coca-cola.png";
-// import Work5 from "../../assets/work5.jpg";
+import Work5 from "../../assets/UI_Trash_Collector.jpg";
+import work6 from "../../assets/APP_Park_Ease.png";
 
 export const projectsData = [
   {
@@ -14,31 +15,40 @@ export const projectsData = [
   },
   {
     id: 2,
+    image: Work5,
+    title: "UI & UX Trash Collector",
+    category: "design",
+    link : "https://www.figma.com/file/YSgAkt5rd1KqqNJiKgxOwd/UI-Trash-Collector?type=design&node-id=159%3A12103&mode=design&t=B0xCuXecsk51Iz3N-1",
+  },
+  {
+    id: 3,
     image: Work2,
     title: "Porto Web",
     category: "web",
     link : "https://damar-glh.github.io/me/",
   },
+  
   {
-    id: 3,
+    id: 4,
+    image: work6,
+    title: "Park Ease Application",
+    category: "app",
+    link : "https://github.com/rizalarfiyan/park-ease/releases/tag/v1.0.0",
+  },
+  {
+    id: 5,
     image: Work3,
     title: "Shoes Web",
     category: "web",
     link : "https://damar-glh.github.io/me/",
   },
   {
-    id: 4,
+    id: 6,
     image: Work4,
     title: "Coca-Cola Web",
     category: "web",
     link : "https://damar-glh.github.io/me/",
   },
-  // {
-  //   id: 5,
-  //   image: Work5,
-  //   title: "Brand design",
-  //   category: "design",
-  // },
 ];
 
 export const projectsNav = [
