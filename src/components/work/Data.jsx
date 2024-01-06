@@ -9,7 +9,7 @@ export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Landing Page With Bootstrap",
+    title: "Landing Page",
     category: "web",
     link : "https://damar-glh.github.io/landing-page-bootstrap/",
   },
@@ -23,7 +23,7 @@ export const projectsData = [
   {
     id: 3,
     image: Work2,
-    title: "Porto Web",
+    title: "Portofolio Website",
     category: "web",
     link : "https://damar-glh.github.io/me/",
   },
@@ -38,14 +38,14 @@ export const projectsData = [
   {
     id: 5,
     image: Work3,
-    title: "Shoes Web",
+    title: "Shoes Website",
     category: "web",
     link : "https://damar-glh.github.io/me/",
   },
   {
     id: 6,
     image: Work4,
-    title: "Coca-Cola Web",
+    title: "Coca-Cola Website",
     category: "web",
     link : "https://damar-glh.github.io/me/",
   },
