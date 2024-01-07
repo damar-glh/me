@@ -22,7 +22,14 @@ const WorkItem = ({ item }) => {
           <div className="work__modal-content">
             <i onClick={toggleTab} className="uil uil-times work__modal-close"></i>
             <h3 className="work__modal-title">{item.title}</h3>
-            <p className="work__modal-description">{item.description}</p>
+            <p className="work__modal-title-description"><i className='uil uil-trophy'></i> Goals</p>
+            <p className="work__modal-description">{item.goals}</p>
+            <p className="work__modal-title-description"><i className='uil uil-arrow'></i> Technology</p>
+            <p className="work__modal-description">{item.tech}</p>
+            <p className="work__modal-title-description"><i className='uil uil-users-alt'></i> Author</p>
+            <p className="work__modal-description">{item.author}</p>
+            <p className="work__modal-title-description"><i className='uil uil-star'></i> Rating's</p>
+            <p className="work__modal-description">{item.rating}</p>
           </div>
         </div>
       </div>

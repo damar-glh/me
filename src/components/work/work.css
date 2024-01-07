@@ -121,6 +121,13 @@
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1);
 }
+
+.work__modal-title-description {
+    text-align: justify;
+    font-size: var(--small-font-size);
+    padding: 0 2rem;
+    font-weight: 525;
+}
   
 .work__modal-description {
     text-indent: 2em;

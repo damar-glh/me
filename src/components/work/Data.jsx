@@ -12,6 +12,10 @@ export const projectsData = [
     title: "Landing Page",
     category: "web",
     link : "https://damar-glh.github.io/landing-page-bootstrap/",
+    goals: "",
+    tech : "",
+    author : "",
+    ratings : "",
   },
   {
     id: 2,
@@ -19,6 +23,10 @@ export const projectsData = [
     title: "UI & UX Trash Collector",
     category: "design",
     link : "https://www.figma.com/file/YSgAkt5rd1KqqNJiKgxOwd/UI-Trash-Collector?type=design&node-id=159%3A12103&mode=design&t=B0xCuXecsk51Iz3N-1",
+    goals: "",
+    tech : "",
+    author : "",
+    ratings : "",
   },
   {
     id: 3,
@@ -26,6 +34,10 @@ export const projectsData = [
     title: "Portofolio Website",
     category: "web",
     link : "https://damar-glh.github.io/me/",
+    goals: "",
+    tech : "",
+    author : "",
+    ratings : "",
   },
   
   {
@@ -34,6 +46,10 @@ export const projectsData = [
     title: "Park Ease Application",
     category: "app",
     link : "https://github.com/rizalarfiyan/park-ease/releases/tag/v1.0.0",
+    goals: "",
+    tech : "",
+    author : "",
+    ratings : "",
   },
   {
     id: 5,
@@ -41,6 +57,10 @@ export const projectsData = [
     title: "Shoes Website",
     category: "web",
     link : "https://damar-glh.github.io/me/",
+    goals: "",
+    tech : "",
+    author : "",
+    ratings : "",
   },
   {
     id: 6,
@@ -48,6 +68,10 @@ export const projectsData = [
     title: "Coca-Cola Website",
     category: "web",
     link : "https://damar-glh.github.io/me/",
+    goals: "",
+    tech : "",
+    author : "",
+    ratings : "",
   },
 ];
 
