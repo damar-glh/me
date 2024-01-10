@@ -130,11 +130,52 @@
 }
   
 .work__modal-description {
-    text-indent: 2em;
+    text-indent: 1.5em;
     text-align: justify;
     font-size: var(--small-font-size);
     padding: 0 2rem;
     margin-bottom: var(--mb-1-5);
+}
+
+.tech_use {
+    margin: .5rem 0 1.5rem 0;
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.tech_img {
+    max-width: 2.5rem;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.tech_img:hover {
+    filter: none;
+}
+
+.author {
+    margin-bottom: var(--mb-1-5);
+}
+
+.work__author{
+    text-indent: 1.5em;
+    text-align: justify;
+    font-size: var(--small-font-size);
+    padding: 0 2rem;
+    margin-bottom: var(--mb-0-5);
+}
+
+.stars_ratings {
+    text-indent: 1.5em;
+    padding: 0 2rem;
+}
+
+.ratings_img {
+    max-width: 1.5rem;
+    filter: grayscale(100%);
 }
   
 .work__modal-services {

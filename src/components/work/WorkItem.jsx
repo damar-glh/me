@@ -25,11 +25,23 @@ const WorkItem = ({ item }) => {
             <p className="work__modal-title-description"><i className='uil uil-trophy'></i> Goals</p>
             <p className="work__modal-description">{item.goals}</p>
             <p className="work__modal-title-description"><i className='uil uil-arrow'></i> Technology</p>
-            <p className="work__modal-description">{item.tech}</p>
+            <div className="tech_use">
+              {item.tech.map((tech) => (
+                <img key={tech} src={tech} alt="" className="tech_img" />
+              ))}
+            </div>
             <p className="work__modal-title-description"><i className='uil uil-users-alt'></i> Author</p>
-            <p className="work__modal-description">{item.author}</p>
+            <div className="author">
+              {item.author.map((author) => (
+                    <p key={author} className="work__author">● {author}</p>
+              ))}
+            </div>
             <p className="work__modal-title-description"><i className='uil uil-star'></i> Rating's</p>
-            <p className="work__modal-description">{item.rating}</p>
+            <div className="stars_ratings">
+              {item.ratings.map((ratings) => (
+                  <img key={ratings} src={ratings} alt="" className="ratings_img" />
+              ))}
+            </div>
           </div>
         </div>
       </div>
