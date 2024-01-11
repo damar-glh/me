@@ -17,7 +17,7 @@
 }
 
 .about__box {
-    background-color: var(--container-color);
+    background-color: var(--title-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
@@ -26,13 +26,14 @@
 
 .about__icon {
     font-size: 1.5rem;
-    color: var(--title-color);
+    color: var(--body-color);
     margin-bottom: var(--mb-0-5);
 }
 
 .about__title {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
+    color: var(--body-color);
 }
 
 .about__subtitle {
@@ -50,6 +51,14 @@
     color: var(--body-color);
 }
 
+:is(.dark-mode) .about__box {
+    background-color: var(--title-color);
+    border: 1px solid var(--text-color);
+}
+
+:is(.dark-mode) .about__icon,:is(.dark-mode) .about__title {
+    color: var(--container-color);
+}
 
 /* For large devices */
 @media screen and (max-width: 992px) {

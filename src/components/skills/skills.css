@@ -5,13 +5,14 @@
 }
 
 .skills__content {
-    background-color: var(--container-color);
+    background-color: var(--title-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
 }
 
 .skills__title {
+    color: var(--body-color);
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     text-align: center;
@@ -46,6 +47,7 @@
 }
 
 .skills__name {
+    color: var(--body-color);
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;
@@ -53,6 +55,15 @@
 
 .skills__level {
     font-size: var(--tiny-font-size);
+}
+
+:is(.dark-mode) .skills__content {
+    background-color: var(--container-color);
+}
+
+:is(.dark-mode) .skills__title,
+:is(.dark-mode) .skills__name {
+    color: var(--title-color);
 }
 
 /* For large devices */

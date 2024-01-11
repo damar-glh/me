@@ -26,7 +26,7 @@ const Learning = ({isDarkMode}) => {
                     </div>
                 </div>
             </div>
-            <div className="learning__content">
+            <div className="learning__content learning__mid">
                 <div>
                     <i className="uil uil-brain learning__icon"></i>
                     <h3 className="learning__title">Update <br /> Technology</h3>
