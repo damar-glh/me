@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/me/static/css/main.e42cbfe0.css",
-    "main.js": "/me/static/js/main.eca26e52.js",
+    "main.js": "/me/static/js/main.2e26740f.js",
     "static/js/787.ee95881d.chunk.js": "/me/static/js/787.ee95881d.chunk.js",
     "static/media/profile-1.jpg": "/me/static/media/profile-1.1103df1abca9023a3c75.jpg",
-    "static/media/about-1.jpg": "/me/static/media/about-1.4f5ddd1a11b7ebb6c726.jpg",
     "static/media/coca-cola.png": "/me/static/media/coca-cola.55d96f4fd0fc71853841.png",
     "static/media/CV.pdf": "/me/static/media/CV.18fbd41d7f31fb33756c.pdf",
     "static/media/shoes.png": "/me/static/media/shoes.16c62b9b8df63aa4dd21.png",
@@ -12,6 +11,7 @@
     "static/media/landing-page.jpg": "/me/static/media/landing-page.a63508ae7f3ff701b7c1.jpg",
     "static/media/me.png": "/me/static/media/me.52f4599eb6b012d2118e.png",
     "static/media/APP_Park_Ease.png": "/me/static/media/APP_Park_Ease.235783ff5c41ddf28425.png",
+    "static/media/Damar.jpg": "/me/static/media/Damar.7d80677b81bb3c0271dc.jpg",
     "static/media/guna-ui.svg": "/me/static/media/guna-ui.76ef94b4688c9ad1515744be31e97ebd.svg",
     "static/media/swiper.svg": "/me/static/media/swiper.9df87369df41fbab1c177b4edbed88c2.svg",
     "static/media/c.svg": "/me/static/media/c.a469bf403d711ab78b2a86be8e4db14e.svg",
@@ -33,11 +33,11 @@
     "static/media/emailjs.svg": "/me/static/media/emailjs.5fb58e4637c032f648fca96aeaff691e.svg",
     "static/media/user-circle.svg": "/me/static/media/user-circle.ff065d5cd502ba1e368981e647b8f571.svg",
     "main.e42cbfe0.css.map": "/me/static/css/main.e42cbfe0.css.map",
-    "main.eca26e52.js.map": "/me/static/js/main.eca26e52.js.map",
+    "main.2e26740f.js.map": "/me/static/js/main.2e26740f.js.map",
     "787.ee95881d.chunk.js.map": "/me/static/js/787.ee95881d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e42cbfe0.css",
-    "static/js/main.eca26e52.js"
+    "static/js/main.2e26740f.js"
   ]
 }
