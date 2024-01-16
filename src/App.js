@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import About from './components/about/About';
+import Certificate from './components/certificate/certificate';
 import Skills from './components/skills/Skills';
 import Learning from './components/learning/Learning';
 import Qualification from './components/qualification/Qualification';
@@ -44,6 +45,7 @@ const App = () => {
           <main className={`main ${isDarkMode ? "dark-mode" : "light-mode"}`}>
             <Home isDarkMode={isDarkMode} />
             <About isDarkMode={isDarkMode} />
+            <Certificate isDarkMode={isDarkMode} />
             <Skills isDarkMode={isDarkMode} />
             <Learning isDarkMode={isDarkMode} />
             <Qualification isDarkMode={isDarkMode} />

@@ -1,0 +1,29 @@
+.certificate__container {
+    justify-content: center;
+}
+
+.ACD__img {
+    width: 600px;
+    filter: grayscale(100%);
+    cursor: pointer;
+    border-radius: 0.75rem;
+    border: 2px solid var(--text-color);
+}
+
+.ACD__img:hover {
+    filter: grayscale(25%);
+    transition: filter 0.5s ease;
+}
+
+.certificate__button {
+    color: var(--text-color);
+    font-size: var(--normal-font-size);
+    display: flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    background: var(--container-color);
+}
+
+:is(.dark-mode) .certificate__button {
+    background: var(--title-color);
+}
