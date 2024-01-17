@@ -6,7 +6,7 @@ import reactjs from '../../assets/reactjs.svg';
 
 const Framework = () => {
   return (
-    <div className="skills__content">
+    <div className="skills__content" data-aos="zoom-in" data-aos-delay="2000">
         <h3 className="skills__title">Framework & tools</h3>
         <div className="skills__box">
             <div className="skills__group">

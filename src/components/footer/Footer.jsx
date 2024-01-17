@@ -3,7 +3,7 @@ import "./footer.css";
 
 const Footer = ({isDarkMode}) => {
   return ( 
-    <footer className={`footer section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="footer">
+    <footer className={`footer section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="footer" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-easing="linear" data-aos-duration="1000">
         <div className="footer__container container">
             <h1 className="footer__title">dam.</h1>
             <ul className="footer__list">

@@ -5,7 +5,7 @@ import js from '../../assets/js.svg';
 
 const Frontend = () => {
   return (
-    <div className="skills__content">
+    <div className="skills__content" data-aos="zoom-in" data-aos-delay="1500">
         <h3 className="skills__title">Frontend developer</h3>
         <div className="skills__box">
             <div className="skills__group">
