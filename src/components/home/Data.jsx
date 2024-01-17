@@ -21,7 +21,7 @@ function Data() {
   }, [text]);
 
   return (
-    <div className="home__data">
+    <div className="home__data" data-aos="fade-bottom" data-aos-delay="5000">
         <h1 className="home__title">{animatedText} 
         <svg
                   width="36"

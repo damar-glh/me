@@ -20,16 +20,16 @@ const About = ({isDarkMode}) => {
       currentIndex++;
     }
 
-    interval = setInterval(animateText, 200);
+    interval = setInterval(animateText, 100);
     return () => clearInterval(interval);
   }, [text]);
 
   return (
-    <section className={`about section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="about">
+    <section className={`about section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="about" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-easing="linear" data-aos-duration="1000">
         <h2 className="section__title">About Me</h2>
             <span className="section__subtitle">My Intereduction</span>
-            <div className="about__container container grid">
-              <img src={AboutImg} alt="" className="about__img" />
+            <div className="about__container container grid" >
+              <img src={AboutImg} alt="" className="about__img" data-aos="fade-right" data-aos-duration="3000"/>
               <div className="about__data">
                 <Info />
                 <p className="about__description">
