@@ -13,7 +13,7 @@ import { Pagination } from 'swiper/modules';
 
 const Testimonials = ({isDarkMode}) => {
   return (
-    <section  className={`testimonial container section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="testimonials" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-easing="linear" data-aos-duration="1000">
+    <section  className={`testimonial container section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="testimonials" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-easing="linear" data-aos-duration="3000">
         <h2 className="section__title">My client say</h2>
         <span className="section__subtitle">Testimonial</span>
         <Swiper className="testimonial__container"

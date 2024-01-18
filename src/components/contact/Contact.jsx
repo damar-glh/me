@@ -11,7 +11,7 @@ const Contact = ({isDarkMode}) => {
     e.target.reset();
   };
   return (
-    <section className={`contact section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="contact" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-easing="linear" data-aos-duration="1000">
+    <section className={`contact section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="contact" data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-easing="linear" data-aos-duration="3000">
         <h2 className="section__title">Get in touch</h2>
         <span className="section__subtitle">Contact Me</span>
         <div className="contact__container container grid">
