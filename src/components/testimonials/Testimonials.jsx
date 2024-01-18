@@ -36,7 +36,7 @@ const Testimonials = ({isDarkMode}) => {
         >
             {Data.map(({id, image, title, description}) => {
                 return (
-                    <SwiperSlide className="testimonial__card" key={id}>
+                    <SwiperSlide className="testimonial__card" key={id} data-aos="zoom-in" data-aos-delay="2250">
                         <img src={image} alt="" className="testimonial__img" />
 
                         <h3 className="testimonial__name">{title}</h3>

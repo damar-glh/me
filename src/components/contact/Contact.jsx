@@ -18,19 +18,19 @@ const Contact = ({isDarkMode}) => {
             <div className="contact__content">
                 <h3 className="contact__title">Talk to me</h3>
                 <div className="contact__info">
-                  <div className="contact__card">
+                  <div className="contact__card" data-aos="zoom-in" data-aos-delay="3000">
                     <i className="bx bx-mail-send contact__card-icon"></i>
                     <h3 className="contact__card-title">Email</h3>
                     <span className="contact__card-data">dgdarma6@gmail.com</span>
                     <a href="https://mail.google.com/mail/u/2/#inbox?compose=new" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                   </div>
-                  <div className="contact__card">
+                  <div className="contact__card"data-aos="zoom-in" data-aos-delay="2250">
                     <i className="bx bxl-whatsapp contact__card-icon"></i>
                     <h3 className="contact__card-title">Whatsapp</h3>
                     <span className="contact__card-data">+62822-2322-3166</span>
                     <a href="https://wa.me/qr/Q3ZAX5TFAH3HI1" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                   </div>
-                  <div className="contact__card">
+                  <div className="contact__card" data-aos="zoom-in" data-aos-delay="1500">
                     <i className="bx bxl-messenger contact__card-icon"></i>
                     <h3 className="contact__card-title">Massage</h3>
                     <span className="contact__card-data">Muhamad damar</span>

@@ -12,7 +12,7 @@ const Learning = ({isDarkMode}) => {
         <h2 className="section__title">Learning</h2>
         <span className="section__subtitle">I learned about</span>
         <div className="learning__container container grid">
-            <div className="learning__content">
+            <div className="learning__content" data-aos="zoom-in" data-aos-delay="1500">
                 <div>
                     <i className="uil uil-arrow learning__icon"></i>
                     <h3 className="learning__title">Software <br /> Developer</h3>
@@ -26,7 +26,7 @@ const Learning = ({isDarkMode}) => {
                     </div>
                 </div>
             </div>
-            <div className="learning__content learning__mid">
+            <div className="learning__content learning__mid" data-aos="zoom-in" data-aos-delay="3000">
                 <div>
                     <i className="uil uil-brain learning__icon"></i>
                     <h3 className="learning__title">Update <br /> Technology</h3>
@@ -40,7 +40,7 @@ const Learning = ({isDarkMode}) => {
                     </div>
                 </div>
             </div>
-            <div className="learning__content">
+            <div className="learning__content" data-aos="zoom-in" data-aos-delay="1500">
                 <div>
                     <i className="uil uil-web-grid learning__icon"></i>
                     <h3 className="learning__title">Project <br /> Managing</h3>
