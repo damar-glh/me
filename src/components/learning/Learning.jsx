@@ -8,7 +8,7 @@ const Learning = ({isDarkMode}) => {
     }
     
   return (
-    <section className={`learning section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="learning" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-easing="linear" data-aos-duration="1000">
+    <section className={`learning section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="learning" data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-easing="linear" data-aos-duration="3000">
         <h2 className="section__title">Learning</h2>
         <span className="section__subtitle">I learned about</span>
         <div className="learning__container container grid">

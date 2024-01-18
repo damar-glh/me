@@ -7,9 +7,9 @@ const Qualification = ({isDarkMode}) => {
         setToggleState(index);
     }
   return (
-    <section className={`qualification section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="qualification" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-easing="linear" data-aos-duration="1000">
+    <section className={`qualification section ${isDarkMode ? "dark-mode" : "light-mode"}`} id="qualification" data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-easing="linear" data-aos-duration="3000">
         <h2 className="section__title">Qualification</h2>
-        <span className="section__subtitle">My personal journey</span>
+        <span className="section__subtitle">My personal journey</span> 
         <div className="qualification__container container">
             <div className="qualification__tabs">
                 <div className={toggleState === 1 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"} onClick={() => toggleTab(1)}>
