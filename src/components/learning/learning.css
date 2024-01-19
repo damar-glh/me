@@ -152,6 +152,10 @@ services__modal-info {
   .learning__container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .learning__modal {
+    top: 0;
+  }
 }
 
 /* For medium devices */
