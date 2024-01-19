@@ -13,9 +13,6 @@ const About = ({isDarkMode}) => {
     let currentIndex = 0;
 
     const animateText = () => {
-      if(currentIndex === text.length) {
-        currentIndex = 0;
-      }
       setAnimatedText(text.substring(0, currentIndex + 1 ));
       currentIndex++;
     }
