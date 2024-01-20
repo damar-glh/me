@@ -261,6 +261,10 @@
     .work__img {
         width: 100%;
     }
+
+    .work__author {
+        padding: 0 0.5rem;
+    }
   }
   
    /* For small devices */
