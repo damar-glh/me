@@ -8,7 +8,7 @@ const WorkItem = ({ item }) => {
   return (
     
     <div className="work__card" key={item.id}>
-      <img src={item.image} alt="" className='work__img' data-aos="zoom-in" data-aos-delay="3000"/>
+      <img src={item.image} alt="" className='work__img' data-aos="zoom-in" data-aos-delay="2000"/>
       <h3 className="work__title">{item.title}</h3>
       <div className="work__btn">
       <a href={item.link} className="work__button" target='_blank'>

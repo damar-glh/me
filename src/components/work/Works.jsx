@@ -33,7 +33,7 @@ const Works = () => {
       )
       })}
     </div>
-    <div className="work__container container grid" data-aos="zoom-in" data-aos-delay="500">
+    <div className="work__container container grid" data-aos="zoom-in" data-aos-delay="1000">
       {projects.map((item) => {
         return <WorkItem item={item} key={item.id} />
       })}
