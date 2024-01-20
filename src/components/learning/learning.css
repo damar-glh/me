@@ -156,6 +156,14 @@ services__modal-info {
   .learning__modal {
     top: 0;
   }
+
+  .active-modal {
+  background: var(--container-color);
+}
+
+:is(.dark-mode) .active-modal {
+  background: var(--title-color);
+  }
 }
 
 /* For medium devices */
