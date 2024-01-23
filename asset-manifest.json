@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.e42cbfe0.css",
-    "main.js": "/me/static/js/main.2e26740f.js",
+    "main.css": "/me/static/css/main.b053d945.css",
+    "main.js": "/me/static/js/main.b1ad5d91.js",
     "static/js/787.ee95881d.chunk.js": "/me/static/js/787.ee95881d.chunk.js",
     "static/media/profile-1.jpg": "/me/static/media/profile-1.1103df1abca9023a3c75.jpg",
     "static/media/coca-cola.png": "/me/static/media/coca-cola.55d96f4fd0fc71853841.png",
     "static/media/CV.pdf": "/me/static/media/CV.18fbd41d7f31fb33756c.pdf",
     "static/media/shoes.png": "/me/static/media/shoes.16c62b9b8df63aa4dd21.png",
     "static/media/UI_Trash_Collector.jpg": "/me/static/media/UI_Trash_Collector.7465d6129f4158491d9e.jpg",
+    "static/media/Alibaba Cloud Certified Developers - 1.jpg": "/me/static/media/Alibaba Cloud Certified Developers - 1.504427511675c692ea9b.jpg",
     "static/media/landing-page.jpg": "/me/static/media/landing-page.a63508ae7f3ff701b7c1.jpg",
     "static/media/me.png": "/me/static/media/me.52f4599eb6b012d2118e.png",
     "static/media/APP_Park_Ease.png": "/me/static/media/APP_Park_Ease.235783ff5c41ddf28425.png",
@@ -32,12 +33,12 @@
     "static/media/html.svg": "/me/static/media/html.a86bd28b72d0a3aad7e966f704f8c0dc.svg",
     "static/media/emailjs.svg": "/me/static/media/emailjs.5fb58e4637c032f648fca96aeaff691e.svg",
     "static/media/user-circle.svg": "/me/static/media/user-circle.ff065d5cd502ba1e368981e647b8f571.svg",
-    "main.e42cbfe0.css.map": "/me/static/css/main.e42cbfe0.css.map",
-    "main.2e26740f.js.map": "/me/static/js/main.2e26740f.js.map",
+    "main.b053d945.css.map": "/me/static/css/main.b053d945.css.map",
+    "main.b1ad5d91.js.map": "/me/static/js/main.b1ad5d91.js.map",
     "787.ee95881d.chunk.js.map": "/me/static/js/787.ee95881d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e42cbfe0.css",
-    "static/js/main.2e26740f.js"
+    "static/css/main.b053d945.css",
+    "static/js/main.b1ad5d91.js"
   ]
 }
