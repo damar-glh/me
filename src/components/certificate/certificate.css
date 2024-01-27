@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
-    background: var(--container-color);
+    background: var(--body-color);
 }
 
 :is(.dark-mode) .certificate__button {
