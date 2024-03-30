@@ -179,7 +179,7 @@ img {
 
 .loader.dark-mode video {
   border-radius: 50%;
-  max-width: 150px;
+  max-width: 400px;
 }
 
 .loader.light-mode {
@@ -188,6 +188,7 @@ img {
 
 .loader.light-mode video {
   max-width: 400px;
+  border-radius: 50%;
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -220,6 +221,13 @@ img {
 
   .section__subtitle {
     margin-bottom: var(--mb-3);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .loader.dark-mode video,
+  .loader.light-mode video {
+    max-width: 150px;
   }
 }
 

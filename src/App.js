@@ -33,14 +33,14 @@ const App = () => {
     
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000); 
+    }, 3000); 
   }, []);
 
   return (
     <>
       {isLoading ? ( 
         <div className={`loader ${isDarkMode ? "dark-mode" : "light-mode"}`}>
-          <video src={process.env.PUBLIC_URL + `/${isDarkMode ? "dark" : "light"}.mp4`} autoPlay loop muted />
+          <video src={process.env.PUBLIC_URL + `/${isDarkMode ? "giphy" : "giphy"}.mp4`} autoPlay loop muted />
         </div>
       ) : (
         <>
