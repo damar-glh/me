@@ -227,7 +227,7 @@ img {
 @media screen and (max-width: 500px) {
   .loader.dark-mode video,
   .loader.light-mode video {
-    max-width: 150px;
+    max-width: 250px;
   }
 }
 
