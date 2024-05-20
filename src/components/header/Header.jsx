@@ -2,15 +2,12 @@ import React, { useState } from "react";
 import "./header.css";
 
 const Header = ({ isDarkMode, toggleDarkMode }) => {
-    /*=========== Change background header ============= */
     window.addEventListener("scroll", function() {
         const header = document.querySelector(".header");
-        // when scroll 
         if(this.scrollY >= 80) header.classList.add("show-header");
         else header.classList.remove("show-header");
     })
 
-    /*=========== Toggle menu ============= */
     const[Toggle, showMenu] = useState(false);
     const [activeNav, setActiveNav] = useState("#home")
 
@@ -39,7 +36,7 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
                         </li>
                         <li className="nav__item">
                             <a href="#qualification" onClick={() => setActiveNav("#qualification")} className={activeNav === "#qualification" ? "nav__link active-link" : "nav__link"}>
-                                <i className="uil uil-graduation-cap nav__icon"></i> Qualifi
+                                <i className="uil uil-graduation-cap nav__icon"></i> Qualification
                             </a>
                         </li>
                         <li className="nav__item">
