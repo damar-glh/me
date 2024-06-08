@@ -31,6 +31,10 @@
 
 .home__subtitle {
     position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 300px;
+    height: 1.5rem;
     font-size: var(--h3-font-size);
     padding-left: 5.4rem;
     font-weight: var(--font-normal);
@@ -52,6 +56,9 @@
     content: '';
     max-width: 400px;
     margin-bottom: var(--mb-3);
+    position: relative;
+    top: 0;
+    transform: none;
 }
 
 .home__hand {
