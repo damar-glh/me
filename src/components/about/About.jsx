@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from 'react'
 import "./about.css";
 import AboutImg from "../../assets/Damar.jpg";
-import CV from "../../assets/CV.pdf"
+import CV from "../../assets/CV_DAMAR_GALIH.pdf"
 import Info from './Info';
 
 const About = ({isDarkMode}) => {
   const [animatedText, setAnimatedText] = useState('');
-  const text = " I am a human who is fascinated by the realm of technology, particularly in the realm of development and creation. I strive to continually expand my knowledge and gain fresh experiences. However, concurrently, my fondness for philosophy grants me expertise in comprehending identity and the significance of life. ";
+  const text = "I am a human who is interested in the world of technology, especially in the field of development and creation, with professional experience in designing and developing websites using various front-end and back-end technologies such as HTML, CSS, JavaScript, as well as frameworks such as Bootstrap, Tailwind CSS , and React, while at the same time expanding knowledge in the field of back-end development and creating interesting work by combining technological expertise and a philosophical understanding of identity and the meaning of life.";
 
   useEffect(() => {
     let interval;
