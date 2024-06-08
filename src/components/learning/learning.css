@@ -135,9 +135,14 @@ services__modal-info {
 
 
 /* active modal */
-.active-modal {
+.light-mode .active-modal {
   opacity: 1;
   visibility: visible;
+  background-color: var(--body-color);
+}
+
+.dark-mode .active-modal {
+  background-color: var(--title-color);
 }
 
 /* For large devices */
