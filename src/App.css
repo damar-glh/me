@@ -179,7 +179,7 @@ img {
 
 .loader.dark-mode video {
   border-radius: 50%;
-  max-width: 400px;
+  max-width: 200px;
 }
 
 .loader.light-mode {
@@ -187,7 +187,7 @@ img {
 }
 
 .loader.light-mode video {
-  max-width: 400px;
+  max-width: 200px;
   border-radius: 50%;
 }
 
@@ -227,7 +227,7 @@ img {
 @media screen and (max-width: 500px) {
   .loader.dark-mode video,
   .loader.light-mode video {
-    max-width: 250px;
+    max-width: 175px;
   }
 }
 

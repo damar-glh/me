@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 
 function Data() {
   const [animatedText, setAnimatedText] = useState('');
-  const text = " Damar Glh ";
+  const text = " Web Developer ";
 
   useEffect(() => {
     let interval;
@@ -22,7 +22,7 @@ function Data() {
 
   return (
     <div className="home__data" data-aos="fade-bottom" data-aos-delay="5000">
-        <h1 className="home__title">{animatedText} 
+        <h1 className="home__title">Damar Glh
         <svg
                   width="36"
                   height="36"
@@ -73,7 +73,7 @@ function Data() {
                   ></path>
         </svg>
         </h1>
-        <h3 className="home__subtitle">Web Developer</h3>
+        <h3 className="home__subtitle">{animatedText}</h3>
         <p className="home__description">Transforming concepts into interactive websites, I blend creativity with technology in my role as a web developer. </p>
         <a href="#contact" className="button button--flex">
             Say Hello
