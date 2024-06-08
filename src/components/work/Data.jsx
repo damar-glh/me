@@ -1,14 +1,18 @@
 import Work1 from "../../assets/landing-page.jpg";
 import Work2 from "../../assets/me.png";
-import Work3 from "../../assets/shoes.png";
-import Work4 from "../../assets/coca-cola.png";
+import Work3 from "../../assets/FE-Booking.png";
+import Work4 from "../../assets/trashcan-iot.png";
 import Work5 from "../../assets/UI_Trash_Collector.jpg";
 import work6 from "../../assets/APP_Park_Ease.png";
 import js from '../../assets/js.svg';
+import php from '../../assets/php.svg';
 import csharp from '../../assets/csharp.svg';
 import react from '../../assets/reactjs.svg';
 import emailjs from '../../assets/emailjs.svg';
 import bootstrap from '../../assets/bootstrap.svg'
+import tailwindcss from '../../assets/tailwindcss.svg'
+import arduino from '../../assets/arduino-svgrepo-com.svg'
+import blynk from '../../assets/blynk.svg'
 import figma from '../../assets/figma.svg';
 import guna from '../../assets/guna-ui.svg';
 import swiperjs from '../../assets/swiper.svg';
@@ -65,24 +69,24 @@ export const projectsData = [
   {
     id: 5,
     image: Work3,
-    title: "Shoes Website",
+    title: "Booking Website",
     category: "web",
-    link : "https://damar-glh.github.io/me/",
-    goals: "This website is designed to complete a course taught by Dea Afrizal, which focuses on creating websites for shoe products. However, the appearance and content of this site reflects my creativity and personal contributions.",
-    tech : [js, bootstrap],
-    author : ["Damar Galih"],
-    ratings : [starsfull, starsfull, starsnull, starsnull, starsnull],
+    link : "https://booking.rizalarfiyan.com/",
+    goals: "Booking is an online platform that allows users to rent books online easily and efficiently. This website is designed to be a one-stop solution for book lovers who want to access a wide variety of literature without having to buy it.",
+    tech : [js, react, php, tailwindcss],
+    author : ["Muhamad Rizal Arfiyan","Damar Galih", "Ahmad Mufied Nugroho","Gilang Nur Hidayat", "Wisnu Kusuma Dewa"],
+    ratings : [starsfull, starsfull, starsfull, starsfull, starsfull],
   },
   {
     id: 6,
     image: Work4,
-    title: "Coca-Cola Website",
-    category: "web",
-    link : "https://damar-glh.github.io/me/",
-    goals: "This website was designed as a means to utilize free time outside of the lecture schedule. As an alternative to avoiding boredom, self-development can be done through learning.",
-    tech : [js, bootstrap],
+    title: "TrashCan IoT",
+    category: "IoT",
+    link : "https://www.launchinpad.com/project/trashcan-iot-288eaf0",
+    goals: "Trashcan IoT is an innovative solution for safe and efficient waste management. Equipped with a gas sensor and proximity sensor, this smart trash can monitors the surrounding environment. Gas sensors detect methane from organic waste, providing a warning if it exceeds safe limits. Proximity sensors detect the presence of waste, increasing waste collection efficiency.",
+    tech : [arduino, blynk],
     author : ["Damar Galih"],
-    ratings : [starsfull, starsfull, starsnull, starsnull, starsnull],
+    ratings : [starsfull, starsfull, starsfull, starsfull, starsnull],
   },
 ];
 
@@ -98,5 +102,8 @@ export const projectsNav = [
   },
   {
     name: 'design',
+  },
+  {
+    name: 'IoT',
   },
 ];
