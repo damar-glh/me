@@ -18,7 +18,7 @@ const WorkItem = ({ item }) => {
           <i className="bx bx-left-arrow-alt work__button-icon work__button-icon-left"></i>
           {toggleState === item.id ? 'Descriptions' : 'Descriptions'}
       </button>
-        <div className={toggleState === item.id ? "work__modal active-modal" : "work__modal"}>
+        <div className={toggleState === item.id ? "work__modal work-active-modal" : "work__modal"}>
           <div className="work__modal-content">
             <i onClick={toggleTab} className="uil uil-times work__modal-close"></i>
             <h3 className="work__modal-title">{item.title}</h3>
