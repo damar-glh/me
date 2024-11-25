@@ -14,7 +14,6 @@ import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const App = () => {
   Aos.init();
@@ -45,7 +44,6 @@ const App = () => {
         </div>
       ) : (
         <>
-          <SpeedInsights />
           <Header isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
           <main className={`main ${isDarkMode ? "dark-mode" : "light-mode"}`}>
             <Home isDarkMode={isDarkMode} />
