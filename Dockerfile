@@ -18,7 +18,7 @@ RUN npm run build
 
 # Gunakan image minimal untuk menjalankan aplikasi
 FROM nginx:alpine
-COPY --from=0 /app/build /usr/share/nginx/html
+COPY --from=0 /build /usr/share/nginx/html
 
 # Salin file konfigurasi default NGINX
 EXPOSE 80
