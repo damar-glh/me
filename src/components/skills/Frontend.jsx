@@ -1,7 +1,7 @@
 import React from 'react'
-import html from '../../assets/html.svg';
-import css from '../../assets/css.svg';
-import js from '../../assets/js.svg';
+import html from '../../assets/svg/html.svg';
+import css from '../../assets/svg/css.svg';
+import js from '../../assets/svg/js.svg';
 
 const Frontend = () => {
   return (

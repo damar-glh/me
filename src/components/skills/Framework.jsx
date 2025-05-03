@@ -1,8 +1,8 @@
 import React from 'react'
-import bootstrap from '../../assets/bootstrap.svg'
-import git from '../../assets/git.svg';
-import tailwindcss from '../../assets/tailwindcss.svg';
-import reactjs from '../../assets/reactjs.svg';
+import bootstrap from '../../assets/svg/bootstrap.svg'
+import git from '../../assets/svg/git.svg';
+import tailwindcss from '../../assets/svg/tailwindcss.svg';
+import reactjs from '../../assets/svg/reactjs.svg';
 
 const Framework = () => {
   return (

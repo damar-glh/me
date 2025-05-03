@@ -1,8 +1,8 @@
 import React from 'react'
-import c from '../../assets/c.svg';
-import cpp from '../../assets/cpp.svg';
-import csharp from '../../assets/csharp.svg';
-import php from '../../assets/php.svg';
+import c from '../../assets/svg/c.svg';
+import cpp from '../../assets/svg/cpp.svg';
+import csharp from '../../assets/svg/csharp.svg';
+import php from '../../assets/svg/php.svg';
 
 const Backend = () => {
   return (

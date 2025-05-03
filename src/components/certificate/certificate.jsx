@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import "./certificate.css";
-import ACD from "../../assets/Alibaba Cloud Certified Developers - 1.jpg";
+import ACD from "../../assets/img/Alibaba Cloud Certified Developers - 1.jpg";
 
 const Certificate = ({isDarkMode}) => {
   

@@ -1,4 +1,4 @@
-import user from "../../assets/user-circle.svg";
+import user from "../../assets/svg/user-circle.svg";
 
 export const Data = [
     {

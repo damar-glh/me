@@ -20,6 +20,7 @@
 
 .contact__card {
     background-color: var(--title-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
     border: 2px solid var(--text-color);
     padding: 1rem;
     margin: 1.5rem;

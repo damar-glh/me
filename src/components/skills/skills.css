@@ -5,14 +5,14 @@
 }
 
 .skills__content {
-    background-color: var(--title-color);
-    border: 2px solid var(--text-color);
+    background-color: var(--container-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
     padding: 2rem 4rem;
     border-radius: 1.25rem;
 }
 
 .skills__title {
-    color: var(--body-color);
+    color: var(--title-color-dark);
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     text-align: center;
@@ -47,7 +47,7 @@
 }
 
 .skills__name {
-    color: var(--body-color);
+    color: var(--title-color-dark);
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;
@@ -58,13 +58,13 @@
 }
 
 :is(.dark-mode) .skills__content {
-    background-color: var(--container-color);
-    border: 1px solid var(--container-color);
+    background-color: var(--title-color);
+    border: 1px solid var(--text-color);
 }
 
 :is(.dark-mode) .skills__title,
 :is(.dark-mode) .skills__name {
-    color: var(--title-color);
+    color: var(--body-color);
 }
 
 /* For large devices */

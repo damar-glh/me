@@ -19,12 +19,12 @@
   --body-font: "Poppins", sans-serif;
 
   /*.5rem = 8px | 1rem = 16px ...*/
-  --big-font-size: 3.5rem;
-  --h1-font-size: 2.25rem;
+  --big-font-size: 4.5rem;
+  --h1-font-size: 3.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
   --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
+  --small-font-size: 0.95rem;
   --smaller-font-size: 0.813rem;
   --tiny-font-size: 0.625rem;
 
@@ -116,6 +116,8 @@ img {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 6rem 0 2rem;
+  min-height: 100vh;
+  align-content: center;
 }
 
 .section__title {
@@ -125,7 +127,7 @@ img {
 
 .section__subtitle {
   display: block;
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   margin-bottom: 4rem;
 }
 
@@ -136,7 +138,7 @@ img {
 
 /*=============== LAYOUT ===============*/
 .container {
-  max-width: 968px;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -152,8 +154,9 @@ img {
   background-color: var(--title-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   font-weight: var(--font-medium);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
 }
 
 .button:hover {
