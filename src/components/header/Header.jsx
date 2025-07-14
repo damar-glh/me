@@ -34,11 +34,11 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
                                 <i className="uil uil-file-alt nav__icon"></i> Skills
                             </a>
                         </li>
-                        <li className="nav__item">
-                            <a href="#qualification" onClick={() => setActiveNav("#qualification")} className={activeNav === "#qualification" ? "nav__link active-link" : "nav__link"}>
-                                <i className="uil uil-graduation-cap nav__icon"></i> Qualification
-                            </a>
-                        </li>
+                        {/*<li className="nav__item">*/}
+                        {/*    <a href="#qualification" onClick={() => setActiveNav("#qualification")} className={activeNav === "#qualification" ? "nav__link active-link" : "nav__link"}>*/}
+                        {/*        <i className="uil uil-graduation-cap nav__icon"></i> Qualification*/}
+                        {/*    </a>*/}
+                        {/*</li>*/}
                         <li className="nav__item">
                             <a href="#portofolio" onClick={() => setActiveNav("#portofolio")} className={activeNav === "#portofolio" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-folder-heart nav__icon"></i> Portofolio

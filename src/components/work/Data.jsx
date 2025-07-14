@@ -1,9 +1,12 @@
-import Work1 from "../../assets/img/landing-page.jpg";
-import Work2 from "../../assets/img/me.png";
-import Work3 from "../../assets/img/FE-Booking.png";
-import Work4 from "../../assets/img/trashcan-iot.png";
-import Work5 from "../../assets/img/UI_Trash_Collector.jpg";
-import work6 from "../../assets/img/APP_Park_Ease.png";
+import Work0 from "../../assets/img/recy.jpg";
+import Work1 from "../../assets/img/pokus.png";
+import Work2 from "../../assets/img/greenlify.jpg";
+import Work3 from "../../assets/img/landing-page.jpg";
+import Work4 from "../../assets/img/UI_Trash_Collector.jpg";
+import Work5 from "../../assets/img/me.png";
+import Work6 from "../../assets/img/APP_Park_Ease.png";
+import Work7 from "../../assets/img/FE-Booking.png";
+import Work8 from "../../assets/img/trashcan-iot.png";
 import js from '../../assets/svg/js.svg';
 import php from '../../assets/svg/php.svg';
 import csharp from '../../assets/svg/csharp.svg';
@@ -16,14 +19,51 @@ import blynk from '../../assets/svg/blynk.svg'
 import figma from '../../assets/svg/figma.svg';
 import guna from '../../assets/svg/guna-ui.svg';
 import swiperjs from '../../assets/svg/swiper.svg';
+import python from '../../assets/svg/python.svg';
+import flask from '../../assets/svg/flask.svg';
+import typescript from '../../assets/svg/typescript.svg';
+import mysql from '../../assets/svg/mysql.svg';
 import starsnull from '../../assets/svg/stars-null.svg';
 import starshalf from '../../assets/svg/stars-half.svg';
 import starsfull from '../../assets/svg/stars-full.svg';
 
 export const projectsData = [
   {
+    id: 0,
+    image: Work0,
+    title: "Recycling Platform",
+    category: "web",
+    link : "https://github.com/damar-glh/recy",
+    goals: "This project is a platform that connects people who want to recycle with recycling centers. The goal is to make it easier for people to recycle and reduce waste in the environment.",
+    tech : [python, flask, tailwindcss],
+    author : ["Damar Galih"],
+    ratings : [starsfull, starsfull, starsfull, starsnull, starsnull],
+  },
+  {
     id: 1,
     image: Work1,
+    title: "Pokus Extension",
+    category: "other",
+    link : "https://github.com/rizalarfiyan/pokus",
+    goals: "Pokus is a browser extension that helps users manage their time more effectively. It provides features such as task management, time tracking, and reminders to help users stay focused and productive.",
+    tech : [js, typescript, tailwindcss],
+    author : ["Muhamad Rizal Arfiyan","Damar Galih", "Gilang Nur Hidayat"],
+    ratings : [starsfull, starsfull, starsfull, starsnull, starsnull],
+  },
+  {
+    id: 2,
+    image: Work2,
+    title: "Greenlify Website",
+    category: "web",
+    link : "https://greenlify.vercel.app/",
+    goals: "Greenlify is a website that provides information and resources for people who want to live a more sustainable lifestyle. The goal is to raise awareness about environmental issues and encourage people to take action to reduce their carbon footprint.",
+    tech : [js, react, tailwindcss, flask, mysql],
+    author : ["I Ngurah Komang A.S.S","Anna Berttria Novem Budia", "Natasya Helmalia Putri", "Damar Galih", "Taufiq Kurniawan Akbar", "Naufal Fahmi Kartika", "Ilham Prasetyo", "Tivani Aqlicia", "Abdillah", "M. Fadjar Yulianto"],
+    ratings : [starsfull, starsfull, starsfull, starsnull, starsnull],
+  },
+  {
+    id: 3,
+    image: Work3,
     title: "Landing Page Website",
     category: "web",
     link : "https://damar-glh.github.io/landing-page-bootstrap/",
@@ -33,8 +73,8 @@ export const projectsData = [
     ratings : [starsfull, starsfull, starsfull, starsnull, starsnull],
   },
   {
-    id: 2,
-    image: Work5,
+    id: 4,
+    image: Work4,
     title: "UI & UX Trash Collector",
     category: "design",
     link : "https://www.figma.com/file/YSgAkt5rd1KqqNJiKgxOwd/UI-Trash-Collector?type=design&node-id=159%3A12103&mode=design&t=B0xCuXecsk51Iz3N-1",
@@ -44,8 +84,8 @@ export const projectsData = [
     ratings : [starsfull, starsfull, starsfull, starsfull, starsfull],
   },
   {
-    id: 3,
-    image: Work2,
+    id: 5,
+    image: Work5,
     title: "Portofolio Website",
     category: "web",
     link : "https://damar-glh.github.io/me/",
@@ -56,8 +96,8 @@ export const projectsData = [
   },
   
   {
-    id: 4,
-    image: work6,
+    id: 6,
+    image: Work6,
     title: "Park Ease Application",
     category: "app",
     link : "https://github.com/rizalarfiyan/park-ease/releases/tag/v1.0.0",
@@ -67,8 +107,8 @@ export const projectsData = [
     ratings : [starsfull, starsfull, starsfull, starsfull, starsfull],
   },
   {
-    id: 5,
-    image: Work3,
+    id: 7,
+    image: Work7,
     title: "Booking Website",
     category: "web",
     link : "https://booking.rizalarfiyan.com/",
@@ -78,8 +118,8 @@ export const projectsData = [
     ratings : [starsfull, starsfull, starsfull, starsfull, starsfull],
   },
   {
-    id: 6,
-    image: Work4,
+    id: 8,
+    image: Work8,
     title: "TrashCan IoT",
     category: "IoT",
     link : "https://www.launchinpad.com/project/trashcan-iot-288eaf0",
@@ -106,4 +146,7 @@ export const projectsNav = [
   {
     name: 'IoT',
   },
+  {
+    name: 'other',
+  }
 ];

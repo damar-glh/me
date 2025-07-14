@@ -51,7 +51,7 @@ const App = () => {
             {/*<Certificate isDarkMode={isDarkMode} />*/}
             <Skills isDarkMode={isDarkMode} />
             {/*<Learning isDarkMode={isDarkMode} />*/}
-            <Qualification isDarkMode={isDarkMode} />
+            {/*<Qualification isDarkMode={isDarkMode} />*/}
             <Work isDarkMode={isDarkMode} />
             {/*<Testimonials isDarkMode={isDarkMode} />*/}
             <Contact isDarkMode={isDarkMode} />
