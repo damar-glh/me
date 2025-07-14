@@ -66,12 +66,41 @@
 //
 // export default App;
 
+import React, {useState, useEffect} from 'react';
 import routes from './routes';
 
-export default App => {
+const App = () => {
+    const [isLoading, setIsLoading] = useState(true);
+    const [isDarkMode, setIsDarkMode] = useState(false);
+
+    const toggleDarkMode = () => {
+        setIsDarkMode(prevDarkMode => !prevDarkMode);
+        localStorage.setItem("darkMode", !isDarkMode ? "enabled" : "disabled");
+    };
+
+    useEffect(() => {
+        const darkModePreference = localStorage.getItem("darkMode");
+        if (darkModePreference === "enabled") {
+            setIsDarkMode(true);
+        }
+
+        setTimeout(() => {
+            setIsLoading(false);
+        }, 3000);
+    }, []);
     return (
-        <div className="App">
-            {routes()}
-        </div>
+        <>
+            {isLoading ? (
+                <div className={`loader ${isDarkMode ? "dark-mode" : "light-mode"}`}>
+                    <video src={process.env.PUBLIC_URL + `/${isDarkMode ? "giphy" : "giphy"}.mp4`} autoPlay loop muted/>
+                </div>
+            ) : (
+                <>
+                    {routes()}
+                </>
+            )}
+        </>
     );
 }
+
+export default App;
