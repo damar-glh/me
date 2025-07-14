@@ -5,68 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b72d2536-621f-4110-8564-c25f507e468f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/Damar-Galih.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/damar-galih.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/dark.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/favicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/giphy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/giphy.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/light.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.132da94f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.132da94f.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/787.ee95881d.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/787.ee95881d.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.f105a30a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.f105a30a.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.f105a30a.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/APP_Park_Ease.514a8ec36abedf6a8b61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/Alibaba Cloud Certified Developers - 1.5f40f529ca4d12fa5443.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/Damar-Galih.7bdb79954a7e32e07589.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/FE-Booking.c2389da71801a654f3c8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/UI_Trash_Collector.e9df5cd01bded888387a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/arduino-svgrepo-com.8885ecb1bd517b6be80af8cce31104d5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/blynk.412d28c7f0d4632ab6e16a7938335a56.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/bootstrap.ddd02fbfb8859f7a53e0304a98772a88.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/c.a469bf403d711ab78b2a86be8e4db14e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/cpp.ff1447e03741d00cee3427c6a992ed10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/csharp.04c74d9c8173af1c35819fa3cf02d94a.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/css.160546e05af1d1059313388838579ff0.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/damar-galih.f4b7ea21fcd92489d7f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/emailjs.5fb58e4637c032f648fca96aeaff691e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/figma.bd74b5a95e1023ae04bdeba8e5154094.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/git.5f922b0c35f14b89b1ace7dcf674fa23.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/guna-ui.d782b1e3ed441a7d7323de74214def73.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/html.a86bd28b72d0a3aad7e966f704f8c0dc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/js.f54a98240ba9abc20c3de4822e28bc0b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/landing-page.9e7a46cb25ff7f3266a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/me.d3e07ae837103b492a39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/php.f3c5541e97b6f021158dbb5c004f4ce2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/reactjs.bddb46063f01e2d338a386e7e2727c0e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/stars-full.7a240e0727f247abd8f49bac53a88eec.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/stars-half.cf41a63628373ac90fe71273f0a0ba46.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/stars-null.3c4f9aec75f4bc711ed0d62d6e9b1b1b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/swiper.4b89be450e010142a0c77312d3d7d11d.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/tailwindcss.752a6e4c0fc31514a245f307bf18b47b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/trashcan-iot.03826f03214b1214fa71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/user-circle.ff065d5cd502ba1e368981e647b8f571.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/APP_Park_Ease.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/APP_Park_Ease.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Alibaba Cloud Certified Developers - 1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/Alibaba Cloud Certified Developers - 1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/CV.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/CV_DAMAR_GALIH.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Damar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/FE-Booking.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/FE-Booking.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/UI_Trash_Collector.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/UI_Trash_Collector.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/about-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/about.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/arduino-svgrepo-com.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/arduino-svgrepo-com.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/blynk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/blynk.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/bootstrap.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/c.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/c.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/coca-cola.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/coca-cola.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/cpp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/cpp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/csharp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/csharp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/css.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/emailjs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/emailjs.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/figma.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/figma.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/files.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/files.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/git.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/git.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/guna-ui.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/guna-ui.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/hand.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/hand.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/html.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/html.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/js.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/landing-page.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/landing-page.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/me.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/me.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/php.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/php.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/profile-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/reactjs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/reactjs.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scroll.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/scroll.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/send.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/send.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/shoes.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/shoes.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stars-full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/stars-full.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stars-half.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/stars-half.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stars-null.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/stars-null.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/swiper.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/swiper.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/tailwindcss.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/tailwindcss.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/trashcan-iot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/trashcan-iot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/user-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/user-circle.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/Info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/Info.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/certificate/certificate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/certificate/certificate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Data.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/Framework.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Framework.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/Frontend.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Frontend.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/Lecskills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Lecskills.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/skills.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/testimonials/Data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/Data.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/work/Data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/Data.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/work/work.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/work.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -89,12 +94,13 @@
     "RunOnceActivity.OpenDatabaseViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "last_opened_file_path": "/home/damar/Documents/22.11.5209/me",
+    "last_opened_file_path": "/home/damar/Documents/me",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
     "ts.external.directory.path": "/home/damar/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -111,7 +117,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
       </set>
     </attachedChunks>
   </component>
@@ -126,7 +132,10 @@
       <workItem from="1732518968487" duration="1488000" />
       <workItem from="1732521475640" duration="390000" />
       <workItem from="1746252170440" duration="3994000" />
-      <workItem from="1746260875705" duration="2479000" />
+      <workItem from="1746260875705" duration="2931000" />
+      <workItem from="1746274624529" duration="18000" />
+      <workItem from="1752481110730" duration="1810000" />
+      <workItem from="1752483014917" duration="3033000" />
     </task>
     <servers />
   </component>
