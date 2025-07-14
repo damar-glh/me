@@ -21,12 +21,12 @@ const NavItem = [
         text: "Skills",
         to: "/skills",
     },
-    {
-        id: "#qualification",
-        icon: "uil uil-graduation-cap nav__icon",
-        text: "Qualification",
-        to: "/qualification",
-    },
+    // {
+    //     id: "#qualification",
+    //     icon: "uil uil-graduation-cap nav__icon",
+    //     text: "Qualification",
+    //     to: "/qualification",
+    // },
     {
         id: "#portfolio",
         icon: "uil uil-folder-heart nav__icon",

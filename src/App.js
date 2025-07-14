@@ -96,7 +96,12 @@ const App = () => {
                 </div>
             ) : (
                 <>
-                    {routes()}
+                    {
+                        routes({
+                            isDarkMode: isDarkMode,
+                            toggleDarkMode: toggleDarkMode
+                        })
+                    }
                 </>
             )}
         </>

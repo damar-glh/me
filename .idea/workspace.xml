@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b72d2536-621f-4110-8564-c25f507e468f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/greenlify.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/pokus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/recy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/flask.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/mysql.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/python.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/typescript.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/work/Data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/Data.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/work/work.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/work.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +61,8 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/img" />
       <recent name="$PROJECT_DIR$/src/assets/svg" />
+      <recent name="$PROJECT_DIR$/src/assets/img" />
     </key>
   </component>
   <component name="SharedIndexes">

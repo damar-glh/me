@@ -12,6 +12,7 @@ import Contact from './components/contact/Contact';
 import Layout from "./components/Layout/Layout";
 
 export default function routes() {
+    const isDarkMode = true;
     return (
         <Routes>
             <Route path="/" element={<Layout/>}>
