@@ -3,24 +3,24 @@ import {Link} from "react-router-dom";
 import "./header.css";
 
 const NavItem = [
-    {
-        id: "#home",
-        icon: "uil uil-estate nav__icon",
-        text: "Home",
-        to: "/me",
-    },
+    // {
+    //     id: "#home",
+    //     icon: "uil uil-estate nav__icon",
+    //     text: "Home",
+    //     to: "/me",
+    // },
     {
         id: "#about",
         icon: "uil uil-user nav__icon",
         text: "About",
         to: "/me/about",
     },
-    {
-        id: "#skills",
-        icon: "uil uil-swatchbook nav__icon",
-        text: "Skills",
-        to: "/me/skills",
-    },
+    // {
+    //     id: "#skills",
+    //     icon: "uil uil-swatchbook nav__icon",
+    //     text: "Skills",
+    //     to: "/me/skills",
+    // },
     // {
     //     id: "#qualification",
     //     icon: "uil uil-graduation-cap nav__icon",
@@ -54,7 +54,7 @@ const Header = ({isDarkMode, toggleDarkMode}) => {
     return (
         <header className={`Header ${isDarkMode ? "dark-mode" : "light-mode"} header`}>
             <nav className="nav container">
-                <Link to='/' onClick={() => setActiveNav("#home")} title="Home" className="nav__logo">dam.</Link>
+                <Link to='/me' onClick={() => setActiveNav("#home")} title="Home" className="nav__logo">dam.</Link>
                 <div className={Toggle ? "nav__menu show-menu" :
                     "nav__menu"}>
                     <ul className="nav__list">
@@ -69,11 +69,11 @@ const Header = ({isDarkMode, toggleDarkMode}) => {
                     </ul>
                     <i className="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>
                 </div>
-                <div className="nav__link">
-                    <button onClick={toggleDarkMode} className="nav-dark-toggle">
-                        <i className={`uil ${isDarkMode ? "uil-brightness" : "uil-moonset"} nav-dark-toggle`}></i>
-                    </button>
-                </div>
+                {/*<div className="nav__link">*/}
+                {/*    <button onClick={toggleDarkMode} className="nav-dark-toggle">*/}
+                {/*        <i className={`uil ${isDarkMode ? "uil-brightness" : "uil-moonset"} nav-dark-toggle`}></i>*/}
+                {/*    </button>*/}
+                {/*</div>*/}
                 <nav className="nav__toggle" onClick={() => showMenu(!Toggle)}>
                     <i className="uil uil-apps"></i>
                 </nav>

@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b72d2536-621f-4110-8564-c25f507e468f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/background-gif.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/linux.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/postman.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/scss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/xampp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Skills/Skills.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Skills/SkillsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Skills/SkillsItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Skills/skillhome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/skills/SkillsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/svg/mysql.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/mysql.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills/Framework.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Framework.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills/Frontend.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Frontend.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills/Lecskills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Lecskills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Skills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/skills.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +70,9 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/svg" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/src/assets/svg" />
+      <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
   <component name="SharedIndexes">

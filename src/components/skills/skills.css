@@ -1,5 +1,5 @@
 .skills__container {
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 350px);
     column-gap: 3rem;
     justify-content: center;
 }
@@ -36,7 +36,13 @@
     column-gap: 0.5rem;
 }
 
+.skills__icons {
+    display: flex;
+    gap: 3rem;
+}
+
 .skills__component {
+    width: 100px;
     cursor: pointer;
     filter: grayscale(100%);
     transition: filter 0.3s ease;
@@ -73,21 +79,20 @@
         grid-template-columns: repeat(2, 250px);
         row-gap: 2rem;
     }
-  }
-  
-  /* For medium devices */
-  @media screen and (max-width: 576px) {
+}
+
+/* For medium devices */
+@media screen and (max-width: 576px) {
     .skills__container {
         grid-template-columns: 1fr;
     }
-    
+
     .skills__content {
         padding: 1.5rem;
     }
-  }
-  
-  /* For small devices */
-  @media screen and (max-width: 350px) {
+}
+
+@media screen and (max-width: 350px) {
     .skills__box {
         column-gap: 1.25rem;
     }
@@ -95,5 +100,59 @@
     .skills__name {
         font-size: var(--small-font-size)
     }
-  }
-  
+}
+
+.skills__marquee-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.skills__marquee {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding: 2rem 0;
+
+    mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+}
+
+.marquee-row {
+    display: flex;
+    white-space: nowrap;
+    will-change: transform;
+    animation-fill-mode: both;
+}
+
+.row-1 {
+    animation: marqueeRTL 12s linear infinite;
+}
+
+.row-2 {
+    animation: marqueeLTR 16s linear infinite;
+}
+
+.row-3 {
+    animation: marqueeRTL 20s linear infinite;
+    animation-delay: -3s;
+}
+
+@keyframes marqueeRTL {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marqueeLTR {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}

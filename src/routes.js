@@ -3,7 +3,7 @@ import {Routes, Route} from 'react-router-dom';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Certificate from './components/certificate/certificate';
-import Skills from './components/skills/Skills';
+// import Skills from './components/skills/Skills';
 import Learning from './components/learning/Learning';
 import Qualification from './components/qualification/Qualification';
 import Work from './components/work/Work';
@@ -19,7 +19,7 @@ export default function routes() {
                 <Route index element={<Home/>}/>
                 <Route path="about" element={<About/>}/>
                 <Route path="certificate" element={<Certificate/>}/>
-                <Route path="skills" element={<Skills/>}/>
+                {/*<Route path="skills" element={<Skills/>}/>*/}
                 <Route path="learning" element={<Learning/>}/>
                 <Route path="qualification" element={<Qualification/>}/>
                 <Route path="portfolio" element={<Work/>}/>
