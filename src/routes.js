@@ -15,7 +15,7 @@ export default function routes() {
     const isDarkMode = true;
     return (
         <Routes>
-            <Route path="/" element={<Layout/>}>
+            <Route path="/me/" element={<Layout/>}>
                 <Route index element={<Home/>}/>
                 <Route path="about" element={<About/>}/>
                 <Route path="certificate" element={<Certificate/>}/>
