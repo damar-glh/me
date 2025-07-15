@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.38800a89.css",
-    "main.js": "/me/static/js/main.2055a800.js",
-    "static/js/787.ee95881d.chunk.js": "/me/static/js/787.ee95881d.chunk.js",
+    "main.css": "/me/static/css/main.0af7dbc8.css",
+    "main.js": "/me/static/js/main.1fc0b09b.js",
     "static/media/Damar-Galih.jpg": "/me/static/media/Damar-Galih.7bdb79954a7e32e07589.jpg",
     "static/media/pokus.png": "/me/static/media/pokus.143bfdebaf373e321fd8.png",
     "static/media/greenlify.jpg": "/me/static/media/greenlify.d13b4bfc8a1f107bb5bf.jpg",
@@ -41,12 +40,11 @@
     "static/media/html.svg": "/me/static/media/html.a86bd28b72d0a3aad7e966f704f8c0dc.svg",
     "static/media/emailjs.svg": "/me/static/media/emailjs.5fb58e4637c032f648fca96aeaff691e.svg",
     "static/media/user-circle.svg": "/me/static/media/user-circle.ff065d5cd502ba1e368981e647b8f571.svg",
-    "main.38800a89.css.map": "/me/static/css/main.38800a89.css.map",
-    "main.2055a800.js.map": "/me/static/js/main.2055a800.js.map",
-    "787.ee95881d.chunk.js.map": "/me/static/js/787.ee95881d.chunk.js.map"
+    "main.0af7dbc8.css.map": "/me/static/css/main.0af7dbc8.css.map",
+    "main.1fc0b09b.js.map": "/me/static/js/main.1fc0b09b.js.map"
   },
   "entrypoints": [
-    "static/css/main.38800a89.css",
-    "static/js/main.2055a800.js"
+    "static/css/main.0af7dbc8.css",
+    "static/js/main.1fc0b09b.js"
   ]
 }
