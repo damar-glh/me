@@ -7,19 +7,19 @@ const NavItem = [
         id: "#home",
         icon: "uil uil-estate nav__icon",
         text: "Home",
-        to: "/",
+        to: "/me",
     },
     {
         id: "#about",
         icon: "uil uil-user nav__icon",
         text: "About",
-        to: "/about",
+        to: "/me/about",
     },
     {
         id: "#skills",
         icon: "uil uil-swatchbook nav__icon",
         text: "Skills",
-        to: "/skills",
+        to: "/me/skills",
     },
     // {
     //     id: "#qualification",
@@ -31,13 +31,13 @@ const NavItem = [
         id: "#portfolio",
         icon: "uil uil-folder-heart nav__icon",
         text: "Portfolio",
-        to: "/portfolio",
+        to: "/me/portfolio",
     },
     {
         id: "#contact",
         icon: "uil uil-message nav__icon",
         text: "Contact",
-        to: "/contact",
+        to: "/me/contact",
     }
 ]
 
