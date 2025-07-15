@@ -27,7 +27,7 @@ const About = ({isDarkMode}) => {
             <div className="about__container container grid" >
               <img src={AboutImg} alt="" className="about__img" data-aos="fade-right" data-aos-duration="3000"/>
               <div className="about__data">
-                <Info />
+                {/*<Info />*/}
                 <p className="about__description">
                   {animatedText}
                 </p>

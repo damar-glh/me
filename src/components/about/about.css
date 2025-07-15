@@ -9,6 +9,13 @@
     border-radius: 2rem;
     justify-self: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.about__img:hover {
+    filter: grayscale(0%);
+    transition: filter 0.3s ease-in-out;
 }
 
 .about__info {
@@ -43,6 +50,7 @@
 
 
 .about__description {
+    text-indent: 2.5em;
     margin-bottom: var(--mb-2-5);
     text-align: justify;  
 }

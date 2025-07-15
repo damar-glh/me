@@ -5,21 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b72d2536-621f-4110-8564-c25f507e468f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Error/NotFound.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Error/notfound.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Data.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Skills/Skills.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Skills/SkillsContainer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Skills/SkillsItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Skills/skillhome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Skills.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/skills.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.0af7dbc8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.0af7dbc8.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.cbf07fe0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.cbf07fe0.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.cbf07fe0.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/mysql.5dbd7ffb56a921cecde426cca82f0df4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/about.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
