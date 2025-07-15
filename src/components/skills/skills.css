@@ -43,6 +43,7 @@
 
 .skills__component {
     width: 100px;
+    height: 100px;
     cursor: pointer;
     filter: grayscale(100%);
     transition: filter 0.3s ease;
@@ -89,6 +90,11 @@
 
     .skills__content {
         padding: 1.5rem;
+    }
+
+    .skills__component {
+        width: 80px;
+        height: 80px;
     }
 }
 

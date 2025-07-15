@@ -75,7 +75,7 @@ function Data() {
         </h1>
         <h3 className="home__subtitle">{animatedText}</h3>
         <p className="home__description">Transforming concepts into interactive websites, I blend creativity with technology in my role as a web developer. </p>
-        <a href="#contact" className="button button--flex">
+        <a href="/me/contact" className="button button--flex">
             Say Hello
             <svg
                   className="button__icon"

@@ -4,7 +4,7 @@
 // import Home from './components/home/Home';
 // import About from './components/about/About';
 // import Certificate from './components/certificate/certificate';
-// import Skills from './components/skills/Skills';
+// import Word from './components/skills/Word';
 // import Learning from './components/learning/Learning';
 // import Qualification from './components/qualification/Qualification';
 // import Work from './components/work/Work';
@@ -49,7 +49,7 @@
 //             <Home isDarkMode={isDarkMode} />
 //             <About isDarkMode={isDarkMode} />
 //             {/*<Certificate isDarkMode={isDarkMode} />*/}
-//             <Skills isDarkMode={isDarkMode} />
+//             <Word isDarkMode={isDarkMode} />
 //             {/*<Learning isDarkMode={isDarkMode} />*/}
 //             <Qualification isDarkMode={isDarkMode} />
 //             <Work isDarkMode={isDarkMode} />

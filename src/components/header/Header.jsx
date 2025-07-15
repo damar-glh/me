@@ -15,12 +15,12 @@ const NavItem = [
         text: "About",
         to: "/me/about",
     },
-    // {
-    //     id: "#skills",
-    //     icon: "uil uil-swatchbook nav__icon",
-    //     text: "Skills",
-    //     to: "/me/skills",
-    // },
+    {
+        id: "#skills",
+        icon: "uil uil-swatchbook nav__icon",
+        text: "Skills",
+        to: "/me/skills",
+    },
     // {
     //     id: "#qualification",
     //     icon: "uil uil-graduation-cap nav__icon",

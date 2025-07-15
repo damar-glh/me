@@ -1,0 +1,16 @@
+.notfound {
+    text-align: center;
+}
+
+.notfound__title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.notfound__description {
+    font-size: var(--normal-font-size);
+}
+
+.notfound__link {
+    margin-top: 1.5rem;
+}
