@@ -6,62 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b72d2536-621f-4110-8564-c25f507e468f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/dark.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/favicon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/giphy.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/giphy.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/light.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.a28171cf.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.a28171cf.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.d66c9f0d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.d66c9f0d.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.d66c9f0d.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/APP_Park_Ease.514a8ec36abedf6a8b61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/Alibaba Cloud Certified Developers - 1.5f40f529ca4d12fa5443.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/Damar-Galih.7bdb79954a7e32e07589.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/FE-Booking.c2389da71801a654f3c8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/UI_Trash_Collector.e9df5cd01bded888387a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/arduino-svgrepo-com.8885ecb1bd517b6be80af8cce31104d5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/blynk.412d28c7f0d4632ab6e16a7938335a56.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/bootstrap.ddd02fbfb8859f7a53e0304a98772a88.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/c.a469bf403d711ab78b2a86be8e4db14e.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cpp.ff1447e03741d00cee3427c6a992ed10.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/csharp.04c74d9c8173af1c35819fa3cf02d94a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/css.160546e05af1d1059313388838579ff0.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/damar-galih.f4b7ea21fcd92489d7f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/emailjs.5fb58e4637c032f648fca96aeaff691e.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/figma.bd74b5a95e1023ae04bdeba8e5154094.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/flask.f74879d56c9294439efcb2f1eaaabf6d.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/git.5f922b0c35f14b89b1ace7dcf674fa23.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/greenlify.d13b4bfc8a1f107bb5bf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/guna-ui.d782b1e3ed441a7d7323de74214def73.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/html.a86bd28b72d0a3aad7e966f704f8c0dc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/js.f54a98240ba9abc20c3de4822e28bc0b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/landing-page.9e7a46cb25ff7f3266a2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/linux.9aa16225bf7b42f1b77527d4ff4612fa.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/me.d3e07ae837103b492a39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/mysql.ce6647a90a9b85d07981c096128a6a8e.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/php.f3c5541e97b6f021158dbb5c004f4ce2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/pokus.143bfdebaf373e321fd8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/postman.b4dfe1143783a72f84745157a07719ae.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/python.4298525c028749eb4fa154f8f5bd1931.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/reactjs.bddb46063f01e2d338a386e7e2727c0e.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/recy.1a00f95ef133205ac00c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/scss.a32f740ee4057ea3bd0d7cd611e14685.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/stars-full.7a240e0727f247abd8f49bac53a88eec.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/stars-half.cf41a63628373ac90fe71273f0a0ba46.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/stars-null.3c4f9aec75f4bc711ed0d62d6e9b1b1b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/swiper.4b89be450e010142a0c77312d3d7d11d.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/tailwindcss.752a6e4c0fc31514a245f307bf18b47b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/trashcan-iot.03826f03214b1214fa71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/typescript.5a8731afb70af69ca7846c3a07080df4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/user-circle.ff065d5cd502ba1e368981e647b8f571.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/xampp.3be49f05cd47b05667687485a9613d1a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +80,7 @@
       <workItem from="1752481110730" duration="1810000" />
       <workItem from="1752483014917" duration="3033000" />
       <workItem from="1752594680494" duration="26000" />
-      <workItem from="1756449083080" duration="554000" />
+      <workItem from="1756449083080" duration="895000" />
     </task>
     <servers />
   </component>
