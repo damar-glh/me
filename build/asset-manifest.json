@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.a28171cf.css",
-    "main.js": "/me/static/js/main.d66c9f0d.js",
+    "main.css": "/me/static/css/main.e3b00e5a.css",
+    "main.js": "/me/static/js/main.f0e60a65.js",
     "static/media/Damar-Galih.jpg": "/me/static/media/Damar-Galih.7bdb79954a7e32e07589.jpg",
     "static/media/pokus.png": "/me/static/media/pokus.143bfdebaf373e321fd8.png",
     "static/media/greenlify.jpg": "/me/static/media/greenlify.d13b4bfc8a1f107bb5bf.jpg",
@@ -44,11 +44,11 @@
     "static/media/html.svg": "/me/static/media/html.a86bd28b72d0a3aad7e966f704f8c0dc.svg",
     "static/media/emailjs.svg": "/me/static/media/emailjs.5fb58e4637c032f648fca96aeaff691e.svg",
     "static/media/user-circle.svg": "/me/static/media/user-circle.ff065d5cd502ba1e368981e647b8f571.svg",
-    "main.a28171cf.css.map": "/me/static/css/main.a28171cf.css.map",
-    "main.d66c9f0d.js.map": "/me/static/js/main.d66c9f0d.js.map"
+    "main.e3b00e5a.css.map": "/me/static/css/main.e3b00e5a.css.map",
+    "main.f0e60a65.js.map": "/me/static/js/main.f0e60a65.js.map"
   },
   "entrypoints": [
-    "static/css/main.a28171cf.css",
-    "static/js/main.d66c9f0d.js"
+    "static/css/main.e3b00e5a.css",
+    "static/js/main.f0e60a65.js"
   ]
 }
