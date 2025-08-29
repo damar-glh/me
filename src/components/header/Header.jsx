@@ -13,13 +13,13 @@ const NavItem = [
         id: "#about",
         icon: "uil uil-user nav__icon",
         text: "About",
-        to: "/me/about",
+        to: "/about",
     },
     {
         id: "#skills",
         icon: "uil uil-swatchbook nav__icon",
         text: "Skills",
-        to: "/me/skills",
+        to: "/skills",
     },
     // {
     //     id: "#qualification",
@@ -31,13 +31,13 @@ const NavItem = [
         id: "#portfolio",
         icon: "uil uil-folder-heart nav__icon",
         text: "Portfolio",
-        to: "/me/portfolio",
+        to: "/portfolio",
     },
     {
         id: "#contact",
         icon: "uil uil-message nav__icon",
         text: "Contact",
-        to: "/me/contact",
+        to: "/contact",
     }
 ]
 
@@ -54,7 +54,7 @@ const Header = ({isDarkMode, toggleDarkMode}) => {
     return (
         <header className={`Header ${isDarkMode ? "dark-mode" : "light-mode"} header`}>
             <nav className="nav container">
-                <Link to='/me' onClick={() => setActiveNav("#home")} title="Home" className="nav__logo">dam.</Link>
+                <Link to='/' onClick={() => setActiveNav("#home")} title="Home" className="nav__logo">dam.</Link>
                 <div className={Toggle ? "nav__menu show-menu" :
                     "nav__menu"}>
                     <ul className="nav__list">

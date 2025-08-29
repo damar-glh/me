@@ -15,7 +15,7 @@ import Layout from "./components/Layout/Layout";
 export default function routes() {
     return (
         <Routes>
-            <Route path="/me/" element={<Layout/>}>
+            <Route path="/" element={<Layout/>}>
                 <Route index element={<Home/>}/>
                 <Route path="about" element={<About/>}/>
                 <Route path="certificate" element={<Certificate/>}/>
