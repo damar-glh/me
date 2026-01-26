@@ -14,7 +14,7 @@ const Skills = ({isDarkMode}) => {
             }}
         >
             <h2 className="section__title">Skills</h2>
-            <span className="section__subtitle">My stack level</span>
+            <span className="section__subtitle">My stack & tools</span>
             <div className="skills__marquee-wrapper">
                 <div className="skills__marquee container">
                     <div className="marquee-row row-1"><Frontend/></div>

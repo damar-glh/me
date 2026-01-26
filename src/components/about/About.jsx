@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from 'react'
 import "./about.css";
-import AboutImg from "../../assets/img/damar-galih.jpg";
+import AboutImg from "../../assets/img/logo home.png";
 import Info from './Info';
 
 const About = ({isDarkMode}) => {
   const [animatedText, setAnimatedText] = useState('');
-  const text = "I am a human who is interested in the world of technology, especially in the field of development and creation, with professional experience in designing and developing websites using various front-end and back-end technologies such as HTML, CSS, JavaScript, as well as frameworks such as Bootstrap, Tailwind CSS , and React, while at the same time expanding knowledge in the field of back-end development and creating interesting work by combining technological expertise and a philosophical understanding of identity and the meaning of life.";
+  const text = "Web Developer with 1-2 years of professional experience in web development. Successfully completed 10+ projects, ranging from landing pages to dynamic web applications. Proficient in modern technologies such as HTML, CSS, JavaScript, and frameworks like React, Bootstrap, and Tailwind CSS. Currently actively developing programming skills and ready to collaborate on development teams to create digital solutions.";
 
   useEffect(() => {
     let interval;

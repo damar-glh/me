@@ -8,28 +8,31 @@ const Footer = ({isDarkMode}) => {
             <h1 className="footer__title">dam.</h1>
             <ul className="footer__list">
                 <li>
-                    <a href="#about" className="footer__link">About</a>
+                    <a href="/about" className="footer__link">About</a>
                 </li>
                 <li>
-                    <a href="#portofolio" className="footer__link">Project</a>
+                    <a href="/portfolio" className="footer__link">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#testimonials" className="footer__link">Testimonial</a>
+                    <a href="/contact" className="footer__link">Contact</a>
                 </li>
             </ul>
             <div className="footer__social">
-            <a href="https://www.youtube.com/channel/UCzvicrZgebz5faHpineRWlg" className="footer__social-link" target="_blank" rel="noreferrer">
+            {/* <a href="https://www.youtube.com/channel/UCzvicrZgebz5faHpineRWlg" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-youtube"></i>
-            </a>
-            <a href="https://www.instagram.com/invites/contact/?i=1qn7f0ctoxn2r&utm_content=4rioy6h" className="footer__social-link" target="_blank" rel="noreferrer">
+            </a> */}
+            {/* <a href="https://www.instagram.com/invites/contact/?i=1qn7f0ctoxn2r&utm_content=4rioy6h" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-instagram"></i>
-            </a>
+            </a> */}
             <a href="https://github.com/damar-glh" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-github"></i>
             </a>
-            <a href="https://wa.me/qr/Q3ZAX5TFAH3HI1" className="footer__social-link" target="_blank" rel="noreferrer">
+            {/* <a href="https://wa.me/qr/Q3ZAX5TFAH3HI1" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-whatsapp"></i>
-            </a>
+            </a> */}
+            <a href="https://www.linkedin.com/in/damar-galih-7b5a1124b/" className="footer__social-link" target="_blank" rel="noreferrer">
+            <i className="bx bxl-linkedin"></i>
+        </a>
             </div>
             <span className="footer__copy">&#169; Created by damar.glh__</span>
         </div>

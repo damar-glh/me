@@ -7,6 +7,7 @@ import Work5 from "../../assets/img/me.png";
 import Work6 from "../../assets/img/APP_Park_Ease.png";
 import Work7 from "../../assets/img/FE-Booking.png";
 import Work8 from "../../assets/img/trashcan-iot.png";
+import Work9 from "../../assets/img/Company Profile.jpg";
 import js from '../../assets/svg/js.svg';
 import php from '../../assets/svg/php.svg';
 import csharp from '../../assets/svg/csharp.svg';
@@ -23,6 +24,7 @@ import python from '../../assets/svg/python.svg';
 import flask from '../../assets/svg/flask.svg';
 import typescript from '../../assets/svg/typescript.svg';
 import mysql from '../../assets/svg/mysql.svg';
+import wordpress from '../../assets/svg/wordpress.svg';
 import starsnull from '../../assets/svg/stars-null.svg';
 import starshalf from '../../assets/svg/stars-half.svg';
 import starsfull from '../../assets/svg/stars-full.svg';
@@ -30,6 +32,17 @@ import starsfull from '../../assets/svg/stars-full.svg';
 export const projectsData = [
   {
     id: 0,
+    image: Work9,
+    title: "Company Profile Website",
+    category: "web",
+    link : "https://darinari.co.id",
+    goals: "This company profile website was created to showcase the services and products offered by PT Darinari Sinergi Bersama. It aims to provide potential clients with an overview of the company's capabilities and expertise.",
+    tech : [wordpress, php, mysql],
+    author : ["Damar Galih"],
+    ratings : [starsfull, starsfull, starsfull, starsfull, starsnull],
+  },
+  {
+    id: 1,
     image: Work0,
     title: "Recycling Platform",
     category: "web",
@@ -37,10 +50,10 @@ export const projectsData = [
     goals: "This project is a platform that connects people who want to recycle with recycling centers. The goal is to make it easier for people to recycle and reduce waste in the environment.",
     tech : [python, flask, tailwindcss],
     author : ["Damar Galih"],
-    ratings : [starsfull, starsfull, starsfull, starsnull, starsnull],
+    ratings : [starsfull, starsfull, starsfull, starsfull, starsnull],
   },
   {
-    id: 1,
+    id: 2,
     image: Work1,
     title: "Pokus Extension",
     category: "other",
@@ -48,10 +61,10 @@ export const projectsData = [
     goals: "Pokus is a browser extension that helps users manage their time more effectively. It provides features such as task management, time tracking, and reminders to help users stay focused and productive.",
     tech : [js, typescript, tailwindcss],
     author : ["Muhamad Rizal Arfiyan","Damar Galih", "Gilang Nur Hidayat"],
-    ratings : [starsfull, starsfull, starsfull, starsnull, starsnull],
+    ratings : [starsfull, starsfull, starsfull, starsfull, starsnull],
   },
   {
-    id: 2,
+    id: 3,
     image: Work2,
     title: "Greenlify Website",
     category: "web",
@@ -62,7 +75,7 @@ export const projectsData = [
     ratings : [starsfull, starsfull, starsfull, starsnull, starsnull],
   },
   {
-    id: 3,
+    id: 4,
     image: Work3,
     title: "Landing Page Website",
     category: "web",
@@ -73,7 +86,7 @@ export const projectsData = [
     ratings : [starsfull, starsfull, starsfull, starsnull, starsnull],
   },
   {
-    id: 4,
+    id: 5,
     image: Work4,
     title: "UI & UX Trash Collector",
     category: "design",
@@ -84,7 +97,7 @@ export const projectsData = [
     ratings : [starsfull, starsfull, starsfull, starsfull, starsfull],
   },
   {
-    id: 5,
+    id: 6,
     image: Work5,
     title: "Portofolio Website",
     category: "web",
@@ -96,7 +109,7 @@ export const projectsData = [
   },
 
   {
-    id: 6,
+    id: 7,
     image: Work6,
     title: "Park Ease Application",
     category: "app",
@@ -107,7 +120,7 @@ export const projectsData = [
     ratings : [starsfull, starsfull, starsfull, starsfull, starsfull],
   },
   {
-    id: 7,
+    id: 8,
     image: Work7,
     title: "Booking Website",
     category: "web",
@@ -118,7 +131,7 @@ export const projectsData = [
     ratings : [starsfull, starsfull, starsfull, starsfull, starsfull],
   },
   {
-    id: 8,
+    id: 9,
     image: Work8,
     title: "TrashCan IoT",
     category: "IoT",

@@ -24,17 +24,29 @@ const Contact = ({isDarkMode}) => {
                     <span className="contact__card-data">dgdarma6@gmail.com</span>
                     <a href="https://mail.google.com/mail/u/2/#inbox?compose=new" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                   </div>
-                  <div className="contact__card"data-aos="zoom-in" data-aos-delay="2250">
+                  {/* <div className="contact__card"data-aos="zoom-in" data-aos-delay="2250">
                     <i className="bx bxl-whatsapp contact__card-icon"></i>
                     <h3 className="contact__card-title">Whatsapp</h3>
                     <span className="contact__card-data">+62822-2322-3166</span>
                     <a href="https://wa.me/qr/Q3ZAX5TFAH3HI1" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
-                  </div>
-                  <div className="contact__card" data-aos="zoom-in" data-aos-delay="1500">
+                  </div> */}
+                  {/* <div className="contact__card" data-aos="zoom-in" data-aos-delay="1500">
                     <i className="bx bxl-messenger contact__card-icon"></i>
                     <h3 className="contact__card-title">Massage</h3>
                     <span className="contact__card-data">Muhamad damar</span>
                     <a href="https://m.facebook.com/damar.galih.737001?eav=Afa9DNwI3eeZdM4SEa1m0T6kViMZzc6Ev-QMEYKxKS399U--jRaVJbhvp0rNzTTBRe8&paipv=" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                  </div> */}
+                  <div className="contact__card" data-aos="zoom-in" data-aos-delay="1500">
+                    <i className="bx bxl-linkedin contact__card-icon"></i>
+                    <h3 className="contact__card-title">Linkedin</h3>
+                    <span className="contact__card-data">Damar Galih</span>
+                    <a href="https://www.linkedin.com/in/damar-galih-7b5a1124b/" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                  </div>
+                  <div className="contact__card" data-aos="zoom-in" data-aos-delay="1500">
+                    <i className="bx bxl-github contact__card-icon"></i>
+                    <h3 className="contact__card-title">Github</h3>
+                    <span className="contact__card-data">Damar Galih</span>
+                    <a href="https://github.com/damar-glh" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                   </div>
                 </div>
             </div>

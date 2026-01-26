@@ -4,6 +4,8 @@ import js from '../../assets/svg/js.svg';
 import scss from '../../assets/svg/scss.svg';
 import mysql from '../../assets/svg/mysql.svg';
 import postman from '../../assets/svg/postman.svg';
+import wordpress from '../../assets/svg/wordpress.svg';
+import woocommerce from '../../assets/svg/woocommerce.svg';
 import SkillsContainer from "./SkillsContainer";
 
 const frontendSkills = [
@@ -12,7 +14,9 @@ const frontendSkills = [
     {name: 'SCSS', icon: scss},
     {name: 'JavaScript', icon: js},
     {name: 'MySQL', icon: mysql},
-    {name: 'Postman', icon: postman}
+    {name: 'Postman', icon: postman},
+    {name: 'WordPress', icon: wordpress},
+    {name: 'WooCommerce', icon: woocommerce}
 ];
 
 const Frontend = () => {

@@ -68,7 +68,8 @@
 }
 
 .home__img {
-    background: url(../../assets/img/Damar-Galih.jpg);
+    background: url(../../assets/img/logo\ home.png);
+    filter: grayscale(100%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
